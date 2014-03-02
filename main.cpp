@@ -31,6 +31,7 @@ typedef struct smashHeader {
     unsigned int subactionEnd;
 } SmashHeader;
 
+//wtf was I thinking splitting these up. w/e
 typedef struct attribute {
 	std::string name;
 	float value;
@@ -39,6 +40,15 @@ typedef struct attribute {
 typedef struct attributes {
 	Attribute *attributes;
 } Attributes;
+
+typedef struct subActionHeader {
+	unsigned int nameOffset;
+	int uk1;
+	int uk2;
+	unsigned int Events;
+	int uk3;
+	int uk4;
+} SubActionHeader;
 
 int32_t swap_int32( int32_t val )
 {
@@ -271,7 +281,7 @@ std::string attrGetName(int cur) {
 		case 0x108:
 			return "Walljump V Velocity";
 		case 0x14C:
-			return "Bubble Ration?";
+			return "Bubble Ratio?";
 		case 0x160:
 			return "Ice Traction?";
 		case 0x16C:
