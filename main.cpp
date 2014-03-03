@@ -45,7 +45,7 @@ typedef struct subActionHeader {
 	unsigned int nameOffset;
 	int uk1;
 	int uk2;
-	unsigned int Events;
+	unsigned int events;
 	int uk3;
 	int uk4;
 } SubActionHeader;
@@ -64,6 +64,7 @@ float float_swap(float value) {
 FileHeader *getFileHead(FILE *file);
 SmashHeader *getHeader(FILE *file, FileHeader *header);
 Attributes *getAttributes(FILE *file, SmashHeader *smash);
+SubActionHeader *getSubActionHeaders(FILE *file, SmashHeader *smash);
 std::string attrGetName(int cur);
 
 int main(int argc, char* argv[]) {
@@ -71,6 +72,8 @@ int main(int argc, char* argv[]) {
     FileHeader *fileHeader;
     SmashHeader *smashHead;
 	Attributes *attr;
+	SubActionHeader *subActHeads;
+	
 	std::string temp = (argc >= 2) ? argv[1] : "PlCa.dat";
 	printf("File: %s\n", temp.c_str());
 	printf("-------------------------------------------------------------------------------\n");
@@ -78,9 +81,14 @@ int main(int argc, char* argv[]) {
     fileHeader = getFileHead(smashFile); //Get header data
     smashHead = getHeader(smashFile, fileHeader);
 	attr = getAttributes(smashFile, smashHead);
-    delete smashHead;
+	subActHeads = getSubActionHeaders(smashFile, smashHead);
+    
+	//Clean up after ourselves
+	delete smashHead;
 	delete fileHeader;
 	delete attr;
+	delete subActHeads;
+	
     return 0;
 }
 
@@ -176,6 +184,46 @@ Attributes *getAttributes(FILE *file, SmashHeader *smash) {
 	return attr;
 }
 
+SubActionHeader *getSubActionHeaders(FILE *file, SmashHeader *smash) {
+	int offset = 0x20 + smash->subactionStart;
+	int numOfElements = (smash->subactionEnd - smash->subactionStart) / 4;
+	SubActionHeader *headers = new SubActionHeader[numOfElements];
+	fseek(file, offset, SEEK_SET);
+	int buffer = 0;
+	for (int i = 0; i < numOfElements; i++) {
+		fread(&buffer, sizeof(int), 1, file);
+		headers[i].nameOffset = swap_int32(buffer);
+		fread(&buffer, sizeof(int), 1, file);
+		headers[i].uk1 = swap_int32(buffer);
+		fread(&buffer, sizeof(int), 1, file);
+		headers[i].uk2 = swap_int32(buffer);
+		fread(&buffer, sizeof(int), 1, file);
+		headers[i].events = swap_int32(buffer);
+		fread(&buffer, sizeof(int), 1, file);
+		headers[i].uk3 = swap_int32(buffer);
+		fread(&buffer, sizeof(int), 1, file);
+		headers[i].uk4 = swap_int32(buffer);
+	}
+	
+	printf("-------------------------------------------------------------------------------\n");
+	printf("SubAction Names\n_______________\n");
+	//Try reading a name?
+	char a;
+	for (int i = 0; i < numOfElements; i++) {
+		fseek(file, headers[i].nameOffset + 0x20, SEEK_SET);
+		fread(&a, sizeof(char), 1, file);
+		while(a != '\0') {
+			printf("%c", a);
+			fread(&a, sizeof(char), 1, file);
+		}
+		printf(" - At address: 0x%08x\n", headers[i].nameOffset);
+	}
+	
+	return headers;
+}
+
+
+//Fluff stuff for attributes so we know what the hell we're looking at
 std::string attrGetName(int cur) {
 	switch(cur * 4) {
 		case 0x00:
