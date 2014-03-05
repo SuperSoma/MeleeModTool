@@ -186,7 +186,7 @@ Attributes *getAttributes(FILE *file, SmashHeader *smash) {
 
 SubActionHeader *getSubActionHeaders(FILE *file, SmashHeader *smash) {
 	int offset = 0x20 + smash->subactionStart;
-	int numOfElements = (smash->subactionEnd - smash->subactionStart) / 4;
+	int numOfElements = (smash->subactionEnd - smash->subactionStart) / 24;
 	SubActionHeader *headers = new SubActionHeader[numOfElements];
 	fseek(file, offset, SEEK_SET);
 	int buffer = 0;
