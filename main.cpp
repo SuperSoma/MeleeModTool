@@ -295,7 +295,7 @@ void synchronousTimer::read(FILE *file, unsigned char d) { //Assumes file readin
 } 
 
 void synchronousTimer::display() {
-		printf("\tsync Not yet implemented\n");
+		printf("\tSynchronous Timer\n");
 }
 
 void asynchronousTimer::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -310,7 +310,7 @@ void asynchronousTimer::read(FILE *file, unsigned char d) { //Assumes file readi
 } 
 
 void asynchronousTimer::display() {
-	printf("\tasync timer Not yet implemented\n");
+	printf("\tAsynchronousTimer\n");
 }
 
 void setLoop::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -325,7 +325,7 @@ void setLoop::read(FILE *file, unsigned char d) { //Assumes file reading positio
 } 
 
 void setLoop::display() {
-	printf("\tset loop Not yet implemented\n");
+	printf("\tSet Loop\n");
 }
 
 void executeLoop::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -340,7 +340,7 @@ void executeLoop::read(FILE *file, unsigned char d) { //Assumes file reading pos
 } 
 
 void executeLoop::display() {
-	printf("\texecute  Not yet implemented\n");
+	printf("\tExecute Loop\n");
 }
 
 void goTo::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -355,7 +355,7 @@ void goTo::read(FILE *file, unsigned char d) { //Assumes file reading position w
 } 
 
 void goTo::display() {
-	printf("\tgoto Not yet implemented\n");
+	printf("\tGoTo\n");
 }
 
 void subroutine::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -370,7 +370,7 @@ void subroutine::read(FILE *file, unsigned char d) { //Assumes file reading posi
 } 
 
 void subroutine::display() {
-	printf("\t subroutine Not yet implemented\n");
+	printf("\tSubroutine\n");
 }
 
 void autoCancel::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -385,7 +385,7 @@ void autoCancel::read(FILE *file, unsigned char d) { //Assumes file reading posi
 } 
 
 void autoCancel::display() {
-	printf("\tauto cancel Not yet implemented\n");
+	printf("\tAuto Cancel\n");
 }
 
 void allowInterrupt::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -400,7 +400,7 @@ void allowInterrupt::read(FILE *file, unsigned char d) { //Assumes file reading 
 } 
 
 void allowInterrupt::display() {
-	printf("\tallow interrupt Not yet implemented\n");
+	printf("\tAllow Interrupt\n");
 }
 
 void startSmashCharge::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -415,7 +415,7 @@ void startSmashCharge::read(FILE *file, unsigned char d) { //Assumes file readin
 } 
 
 void startSmashCharge::display() {
-	printf("\tstart smash unsigned charge Not yet implemented\n");
+	printf("\tStart Smash Charge\n");
 }
 
 void hitbox::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -449,7 +449,7 @@ void terminateCollisions::read(FILE *file, unsigned char d) { //Assumes file rea
 } 
 
 void terminateCollisions::display() {
-	printf("\tend collisions Not yet implemented\n");
+	printf("\tEnd Collisions\n");
 }
 
 void bodyState::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -464,7 +464,7 @@ void bodyState::read(FILE *file, unsigned char d) { //Assumes file reading posit
 } 
 
 void bodyState::display() {
-	printf("\tbody state Not yet implemented\n");
+	printf("\tBody State\n");
 }
 
 void throwBox::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -479,7 +479,7 @@ void throwBox::read(FILE *file, unsigned char d) { //Assumes file reading positi
 } 
 
 void throwBox::display() {
-	printf("\tthrow box Not yet implemented\n");
+	printf("\tThrow Box\n");
 }
 
 void generateArticle::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -494,7 +494,7 @@ void generateArticle::read(FILE *file, unsigned char d) { //Assumes file reading
 } 
 
 void generateArticle::display() {
-	printf("\t- generate article Not yet implemented\n");
+	printf("\tGenerate Article\n");
 }
 
 void selfDamage::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -509,7 +509,7 @@ void selfDamage::read(FILE *file, unsigned char d) { //Assumes file reading posi
 } 
 
 void selfDamage::display() {
-	printf("\tself damage Not yet implemented\n");
+	printf("\tSelf Damage\n");
 }
 
 void reverseDirection::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -524,7 +524,7 @@ void reverseDirection::read(FILE *file, unsigned char d) { //Assumes file readin
 } 
 
 void reverseDirection::display() {
-	printf("\t%02x - reverse direction Not yet implemented\n");
+	printf("\tReverse Direction\n");
 }
 
 void graphicEffect::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -539,7 +539,7 @@ void graphicEffect::read(FILE *file, unsigned char d) { //Assumes file reading p
 } 
 
 void graphicEffect::display() {
-	printf("\tgraphic effect Not yet implemented\n");
+	printf("\tGraphic Effect\n");
 }
 
 void soundEffect::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -554,7 +554,7 @@ void soundEffect::read(FILE *file, unsigned char d) { //Assumes file reading pos
 } 
 
 void soundEffect::display() {
-	printf("\tSound Effect Not yet implemented\n");
+	printf("\tSound Effect\n");
 }
 
 void smashSound::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -569,7 +569,7 @@ void smashSound::read(FILE *file, unsigned char d) { //Assumes file reading posi
 } 
 
 void smashSound::display() {
-	printf("\tRandom Smash Sound Not yet implemented\n");
+	printf("\tRandom Smash Sound\n");
 }
 
 void event::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
@@ -584,7 +584,7 @@ void event::read(FILE *file, unsigned char d) { //Assumes file reading position 
 } 
 
 void event::display() {
-	printf("\tEvent Not yet implemented\n");
+	printf("\tUnknown Event\n");
 }
 
 //Get the event

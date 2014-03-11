@@ -119,62 +119,62 @@ _______________
 PlyCaptain5K_Share_ACTION_WallDamage_figatree
 PlyCaptain5K_Share_ACTION_DamageFall_figatree
 PlyCaptain5K_Share_ACTION_Wait1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Wait2_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Wait3_figatree
-	Event Not yet implemented
+	Unknown Event
 Unknown Action
 PlyCaptain5K_Share_ACTION_WaitItem_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_WalkSlow_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_WalkMiddle_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_WalkFast_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Turn_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_TurnRun_figatree
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	Event Not yet implemented
+	Graphic Effect
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Dash_figatree
-	async timer Not yet implemented
-	- generate article Not yet implemented
-	Sound Effect Not yet implemented
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	auto cancel Not yet implemented
+	AsynchronousTimer
+	Generate Article
+	Sound Effect
+	Auto Cancel
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Auto Cancel
 PlyCaptain5K_Share_ACTION_Run_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_RunBrake_figatree
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	auto cancel Not yet implemented
+	AsynchronousTimer
+	Auto Cancel
+	Sound Effect
+	Graphic Effect
+	AsynchronousTimer
+	Auto Cancel
 PlyCaptain5K_Share_ACTION_Landing_figatree
 PlyCaptain5K_Share_ACTION_JumpF_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_JumpB_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_JumpAerialF_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_JumpAerialB_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_Fall_figatree
 PlyCaptain5K_Share_ACTION_FallF_figatree
 PlyCaptain5K_Share_ACTION_FallB_figatree
@@ -182,663 +182,663 @@ PlyCaptain5K_Share_ACTION_FallAerial_figatree
 PlyCaptain5K_Share_ACTION_FallAerialF_figatree
 PlyCaptain5K_Share_ACTION_FallAerialB_figatree
 PlyCaptain5K_Share_ACTION_FallSpecial_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_FallSpecialF_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_FallSpecialB_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DamageFall_figatree
 PlyCaptain5K_Share_ACTION_Squat_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SquatWait_figatree
-	Event Not yet implemented
+	Unknown Event
 Unknown Action
 Unknown Action
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SquatRv_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Landing_figatree
-	Event Not yet implemented
-	sync Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Landing_figatree
-	Event Not yet implemented
-	sync Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_GuardOn_figatree
 PlyCaptain5K_Share_ACTION_Guard_figatree
 PlyCaptain5K_Share_ACTION_GuardOff_figatree
 PlyCaptain5K_Share_ACTION_GuardDamage_figatree
 PlyCaptain5K_Share_ACTION_EscapeN_figatree
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Sound Effect Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
-	allow interrupt Not yet implemented
+	Sound Effect
+	AsynchronousTimer
+	Graphic Effect
+	Sound Effect
+	Body State
+	AsynchronousTimer
+	Body State
+	AsynchronousTimer
+	Allow Interrupt
 PlyCaptain5K_Share_ACTION_EscapeF_figatree
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	Sound Effect
+	Graphic Effect
+	AsynchronousTimer
+	Graphic Effect
+	Body State
+	AsynchronousTimer
+	Body State
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_EscapeB_figatree
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Sound Effect
+	Graphic Effect
+	AsynchronousTimer
+	Graphic Effect
+	Body State
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_EscapeAir_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
-	auto cancel Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Body State
+	AsynchronousTimer
+	Body State
+	Auto Cancel
 PlyCaptain5K_Share_ACTION_Rebound_figatree
 PlyCaptain5K_Share_ACTION_Attack11_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Attack12_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Attack13_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Attack100Start_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Attack100Loop_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Attack100End_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackDash_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
-	graphic effect Not yet implemented
-	sync Not yet implemented
+	Graphic Effect
+	Synchronous Timer
 	Hitbox Data
 		Hitbox damage: 7
 		Element: 00
-	sync Not yet implemented
-	end collisions Not yet implemented
-	async timer Not yet implemented
-	allow interrupt Not yet implemented
-	Event Not yet implemented
+	Synchronous Timer
+	End Collisions
+	AsynchronousTimer
+	Allow Interrupt
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackS3Hi_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 12
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 12
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackS3HiS_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 12
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 12
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackS3S_figatree
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 11
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 11
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackS3LwS_figatree
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	Graphic Effect
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackS3Lw_figatree
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	Graphic Effect
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackHi3_figatree
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	Event Not yet implemented
+	Sound Effect
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackLw3_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackS4Hi_figatree
-	Event Not yet implemented
+	Unknown Event
 Unknown Action
 PlyCaptain5K_Share_ACTION_AttackS4S_figatree
-	Event Not yet implemented
+	Unknown Event
 Unknown Action
 PlyCaptain5K_Share_ACTION_AttackS4Lw_figatree
-	Event Not yet implemented
+	Unknown Event
 Unknown Action
 PlyCaptain5K_Share_ACTION_AttackHi4_figatree
-	Random Smash Sound Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	start smash unsigned charge Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	Random Smash Sound
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Start Smash Charge
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 8
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 8
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackLw4_figatree
-	Random Smash Sound Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	start smash unsigned charge Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	Random Smash Sound
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Start Smash Charge
+	AsynchronousTimer
+	Graphic Effect
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 18
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 18
 		Element: 00
-	graphic effect Not yet implemented
-	sync Not yet implemented
-	end collisions Not yet implemented
-	sync Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	Graphic Effect
+	Synchronous Timer
+	End Collisions
+	Synchronous Timer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 16
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 16
 		Element: 00
-	sync Not yet implemented
-	end collisions Not yet implemented
-	async timer Not yet implemented
-	allow interrupt Not yet implemented
+	Synchronous Timer
+	End Collisions
+	AsynchronousTimer
+	Allow Interrupt
 PlyCaptain5K_Share_ACTION_AttackAirN_figatree
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	AsynchronousTimer
+	Auto Cancel
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 5
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	sync Not yet implemented
+	Unknown Event
+	Unknown Event
+	Synchronous Timer
 PlyCaptain5K_Share_ACTION_AttackAirF_figatree
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	AsynchronousTimer
+	Auto Cancel
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 18
 		Element: 08
 	Hitbox Data
 		Hitbox damage: 18
 		Element: 08
-	sync Not yet implemented
+	Synchronous Timer
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 80
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 80
-	async timer Not yet implemented
-	end collisions Not yet implemented
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	allow interrupt Not yet implemented
+	AsynchronousTimer
+	End Collisions
+	AsynchronousTimer
+	Auto Cancel
+	AsynchronousTimer
+	Allow Interrupt
 PlyCaptain5K_Share_ACTION_AttackAirB_figatree
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	AsynchronousTimer
+	Auto Cancel
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 14
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 14
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AttackAirHi_figatree
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	Auto Cancel
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 13
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 12
 		Element: 00
-	sync Not yet implemented
+	Synchronous Timer
 	Hitbox Data
 		Hitbox damage: 12
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
-	sync Not yet implemented
+	Synchronous Timer
 	Hitbox Data
 		Hitbox damage: 8
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
-	async timer Not yet implemented
-	end collisions Not yet implemented
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	allow interrupt Not yet implemented
+	AsynchronousTimer
+	End Collisions
+	AsynchronousTimer
+	Auto Cancel
+	AsynchronousTimer
+	Allow Interrupt
 PlyCaptain5K_Share_ACTION_AttackAirLw_figatree
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	auto cancel Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
+	Sound Effect
+	AsynchronousTimer
+	Graphic Effect
+	Auto Cancel
+	AsynchronousTimer
+	Sound Effect
+	Generate Article
 	Hitbox Data
 		Hitbox damage: 16
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 16
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_LandingAirN_figatree
-	Event Not yet implemented
-	sync Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_LandingAirF_figatree
-	Event Not yet implemented
-	sync Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_LandingAirB_figatree
-	Event Not yet implemented
-	sync Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_LandingAirHi_figatree
-	Event Not yet implemented
-	sync Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_LandingAirLw_figatree
-	Event Not yet implemented
-	sync Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_LightGet_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowF_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowB_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowHi_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowLw_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowDash_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowDrop_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowAirF_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowAirB_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowAirHi_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_LightThrowAirLw_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_HeavyGet_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_HeavyWalk1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_HeavyWalk2_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_HeavyThrowF_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_HeavyThrowB_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_HeavyThrowHi_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_HeavyThrowLw_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowF_figatree
-	async timer Not yet implemented
-	Random Smash Sound Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Random Smash Sound
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowB_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Random Smash Sound Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
+	AsynchronousTimer
+	Graphic Effect
+	Random Smash Sound
+	Reverse Direction
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowHi_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Random Smash Sound Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Random Smash Sound
+	Reverse Direction
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowLw_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Random Smash Sound Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Random Smash Sound
+	Reverse Direction
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowAirF_figatree
-	async timer Not yet implemented
-	Random Smash Sound Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Random Smash Sound
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowAirB_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Random Smash Sound Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
+	AsynchronousTimer
+	Graphic Effect
+	Random Smash Sound
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowAirHi_figatree
-	async timer Not yet implemented
-	Random Smash Sound Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Random Smash Sound
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_LightThrowAirLw_figatree
-	async timer Not yet implemented
-	Random Smash Sound Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Random Smash Sound
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_HeavyThrowF_figatree
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Random Smash Sound Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Graphic Effect
+	Random Smash Sound
+	Reverse Direction
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_HeavyThrowB_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Random Smash Sound Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
+	AsynchronousTimer
+	Graphic Effect
+	Random Smash Sound
+	Reverse Direction
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_HeavyThrowHi_figatree
-	async timer Not yet implemented
-	Random Smash Sound Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Random Smash Sound
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_HeavyThrowLw_figatree
-	async timer Not yet implemented
-	Random Smash Sound Not yet implemented
-	graphic effect Not yet implemented
-	28fe9e - reverse direction Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	AsynchronousTimer
+	Random Smash Sound
+	Graphic Effect
+	Reverse Direction
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_Swing1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing3_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing41_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SwingDash_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing3_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing41_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SwingDash_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing3_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing41_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SwingDash_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
-	async timer Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
+	Unknown Event
+	AsynchronousTimer
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing3_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing41_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SwingDash_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing3_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing41_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SwingDash_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing1_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing3_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing41_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SwingDash_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemHammerWait_figatree
 PlyCaptain5K_Share_ACTION_ItemHammerMove_figatree
 PlyCaptain5K_Share_ACTION_ItemParasolOpen_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
-	goto Not yet implemented
+	AsynchronousTimer
+	Unknown Event
+	Unknown Event
+	GoTo
 PlyCaptain5K_Share_ACTION_ItemParasolFall_figatree
 PlyCaptain5K_Share_ACTION_ItemParasolFall_figatree
 PlyCaptain5K_Share_ACTION_DamageFall_figatree
 PlyCaptain5K_Share_ACTION_ItemShoot_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemShootAir_figatree
-	 subroutine Not yet implemented
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemShoot_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemShootAir_figatree
-	 subroutine Not yet implemented
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemShoot_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemShootAir_figatree
-	 subroutine Not yet implemented
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemScrew_figatree
-	graphic effect Not yet implemented
-	Event Not yet implemented
+	Graphic Effect
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemScrewAir_figatree
-	graphic effect Not yet implemented
-	Event Not yet implemented
+	Graphic Effect
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemScrewDamage_figatree
-	sync Not yet implemented
-	auto cancel Not yet implemented
-	 subroutine Not yet implemented
-	sync Not yet implemented
-	auto cancel Not yet implemented
-	 subroutine Not yet implemented
+	Synchronous Timer
+	Auto Cancel
+	Subroutine
+	Synchronous Timer
+	Auto Cancel
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemScrewDamage_figatree
-	sync Not yet implemented
-	auto cancel Not yet implemented
-	 subroutine Not yet implemented
+	Synchronous Timer
+	Auto Cancel
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemBlind_figatree
 PlyCaptain5K_Share_ACTION_ItemScopeStart_figatree
-	graphic effect Not yet implemented
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	goto Not yet implemented
+	Graphic Effect
+	Sound Effect
+	AsynchronousTimer
+	GoTo
 PlyCaptain5K_Share_ACTION_ItemScopeRapid_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemScopeFire_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemScopeEnd_figatree
 PlyCaptain5K_Share_ACTION_ItemScopeAirStart_figatree
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
+	Subroutine
+	Subroutine
+	Subroutine
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemScopeAirRapid_figatree
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
+	Subroutine
+	Subroutine
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemScopeAirFire_figatree
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
+	Subroutine
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemScopeAirEnd_figatree
-	 subroutine Not yet implemented
+	Subroutine
 PlyCaptain5K_Share_ACTION_ItemScopeStart_figatree
-	Sound Effect Not yet implemented
+	Sound Effect
 PlyCaptain5K_Share_ACTION_ItemScopeRapid_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemScopeFire_figatree
-	async timer Not yet implemented
-	Event Not yet implemented
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ItemScopeEnd_figatree
 PlyCaptain5K_Share_ACTION_ItemScopeAirStart_figatree
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	goto Not yet implemented
+	Subroutine
+	Subroutine
+	Subroutine
+	Subroutine
+	GoTo
 PlyCaptain5K_Share_ACTION_ItemScopeAirRapid_figatree
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	goto Not yet implemented
+	Subroutine
+	Subroutine
+	Subroutine
+	GoTo
 PlyCaptain5K_Share_ACTION_ItemScopeAirFire_figatree
-	 subroutine Not yet implemented
-	 subroutine Not yet implemented
-	goto Not yet implemented
+	Subroutine
+	Subroutine
+	GoTo
 PlyCaptain5K_Share_ACTION_ItemScopeAirEnd_figatree
-	 subroutine Not yet implemented
-	goto Not yet implemented
+	Subroutine
+	GoTo
 PlyCaptain5K_Share_ACTION_DamageHi1_figatree
 PlyCaptain5K_Share_ACTION_DamageHi2_figatree
 PlyCaptain5K_Share_ACTION_DamageHi3_figatree
@@ -852,219 +852,219 @@ PlyCaptain5K_Share_ACTION_DamageAir1_figatree
 PlyCaptain5K_Share_ACTION_DamageAir2_figatree
 PlyCaptain5K_Share_ACTION_DamageAir3_figatree
 PlyCaptain5K_Share_ACTION_DamageFlyHi_figatree
-	goto Not yet implemented
+	GoTo
 PlyCaptain5K_Share_ACTION_DamageFlyN_figatree
-	goto Not yet implemented
+	GoTo
 PlyCaptain5K_Share_ACTION_DamageFlyLw_figatree
-	goto Not yet implemented
+	GoTo
 PlyCaptain5K_Share_ACTION_DamageFlyTop_figatree
-	goto Not yet implemented
+	GoTo
 PlyCaptain5K_Share_ACTION_DamageFlyRoll_figatree
-	goto Not yet implemented
+	GoTo
 Unknown Action
 PlyCaptain5K_Share_ACTION_DownBoundU_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownWaitU_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownDamageU_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownStandU_figatree
-	graphic effect Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Graphic Effect
+	Body State
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_DownAttackU_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
-	Event Not yet implemented
-	Event Not yet implemented
-	Event Not yet implemented
+	Unknown Event
+	Unknown Event
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownFowardU_figatree
-	graphic effect Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Graphic Effect
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_DownBackU_figatree
-	body state Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	Graphic Effect
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 Unknown Action
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownBoundD_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownWaitD_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownDamageD_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DownStandD_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_DownAttackD_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
-	sync Not yet implemented
-	end collisions Not yet implemented
-	async timer Not yet implemented
+	Synchronous Timer
+	End Collisions
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 6
 		Element: 00
-	graphic effect Not yet implemented
-	sync Not yet implemented
-	end collisions Not yet implemented
-	body state Not yet implemented
+	Graphic Effect
+	Synchronous Timer
+	End Collisions
+	Body State
 PlyCaptain5K_Share_ACTION_DownFowardD_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_DownBackD_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_DownSpotD_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Passive_figatree
-	body state Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_PassiveStandF_figatree
-	body state Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_PassiveStandB_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_PassiveWall_figatree
 PlyCaptain5K_Share_ACTION_PassiveWallJump_figatree
 PlyCaptain5K_Share_ACTION_PassiveCeil_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	Body State
+	AsynchronousTimer
+	Body State
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_FuraFura_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_FuraSleepStart_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_FuraSleepLoop_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_FuraSleepEnd_figatree
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
-	- generate article Not yet implemented
+	Sound Effect
+	Graphic Effect
+	Generate Article
 PlyCaptain5K_Share_ACTION_Pass_figatree
 PlyCaptain5K_Share_ACTION_Ottotto_figatree
 PlyCaptain5K_Share_ACTION_OttottoWait_figatree
 PlyCaptain5K_Share_ACTION_WallDamage_figatree
 PlyCaptain5K_Share_ACTION_StopWall_figatree
 PlyCaptain5K_Share_ACTION_StopCeil_figatree
-	async timer Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	AsynchronousTimer
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_MissFoot_figatree
 PlyCaptain5K_Share_ACTION_CliffCatch_figatree
-	body state Not yet implemented
+	Body State
 PlyCaptain5K_Share_ACTION_CliffWait1_figatree
 PlyCaptain5K_Share_ACTION_CliffWait2_figatree
 PlyCaptain5K_Share_ACTION_CliffClimbSlow_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
-	Sound Effect Not yet implemented
+	Body State
+	AsynchronousTimer
+	Sound Effect
+	AsynchronousTimer
+	Body State
+	Sound Effect
 PlyCaptain5K_Share_ACTION_CliffClimbQuick_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	Sound Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_CliffAttackSlow_figatree
-	body state Not yet implemented
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
+	Body State
+	Sound Effect
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 8
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 8
 		Element: 00
-	graphic effect Not yet implemented
-	body state Not yet implemented
-	sync Not yet implemented
-	end collisions Not yet implemented
+	Graphic Effect
+	Body State
+	Synchronous Timer
+	End Collisions
 PlyCaptain5K_Share_ACTION_CliffAttackQuick_figatree
-	body state Not yet implemented
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
-	async timer Not yet implemented
+	Body State
+	Sound Effect
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
 	Hitbox Data
 		Hitbox damage: 10
 		Element: 00
-	Event Not yet implemented
-	end collisions Not yet implemented
+	Unknown Event
+	End Collisions
 PlyCaptain5K_Share_ACTION_CliffEscapeSlow_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_CliffEscapeQuick_figatree
-	body state Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	body state Not yet implemented
+	Body State
+	AsynchronousTimer
+	Graphic Effect
+	AsynchronousTimer
+	Body State
 PlyCaptain5K_Share_ACTION_CliffJumpSlow1_figatree
-	body state Not yet implemented
+	Body State
 PlyCaptain5K_Share_ACTION_CliffJumpSlow2_figatree
-	graphic effect Not yet implemented
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_CliffJumpQuick1_figatree
-	body state Not yet implemented
+	Body State
 PlyCaptain5K_Share_ACTION_CliffJumpQuick2_figatree
-	graphic effect Not yet implemented
+	Graphic Effect
 Unknown Action
-	graphic effect Not yet implemented
+	Graphic Effect
 Unknown Action
 Unknown Action
 Unknown Action
@@ -1075,59 +1075,59 @@ Unknown Action
 Unknown Action
 PlyCaptain5K_Share_ACTION_Entry_figatree
 PlyCaptain5K_Share_ACTION_AppealR_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_AppealL_figatree
-	Event Not yet implemented
+	Unknown Event
 Unknown Action
 PlyCaptain5K_Share_ACTION_Catch_figatree
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
+	Graphic Effect
+	AsynchronousTimer
+	Sound Effect
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 20
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 20
-	throw box Not yet implemented
-	end collisions Not yet implemented
-	28fe9e - reverse direction Not yet implemented
+	Throw Box
+	End Collisions
+	Reverse Direction
 PlyCaptain5K_Share_ACTION_CatchDash_figatree
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	Sound Effect Not yet implemented
+	Graphic Effect
+	AsynchronousTimer
+	Sound Effect
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 20
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 20
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_CatchWait_figatree
 PlyCaptain5K_Share_ACTION_CatchAttack_figatree
-	async timer Not yet implemented
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 3
 		Element: 00
-	sync Not yet implemented
-	end collisions Not yet implemented
+	Synchronous Timer
+	End Collisions
 PlyCaptain5K_Share_ACTION_CatchCut_figatree
 PlyCaptain5K_Share_ACTION_ThrowF_figatree
-	Random Smash Sound Not yet implemented
-	throw box Not yet implemented
-	Event Not yet implemented
+	Random Smash Sound
+	Throw Box
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ThrowB_figatree
-	Random Smash Sound Not yet implemented
-	throw box Not yet implemented
-	Event Not yet implemented
+	Random Smash Sound
+	Throw Box
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ThrowHi_figatree
-	Random Smash Sound Not yet implemented
-	throw box Not yet implemented
-	Event Not yet implemented
+	Random Smash Sound
+	Throw Box
+	Unknown Event
 PlyCaptain5K_Share_ACTION_ThrowLw_figatree
-	Random Smash Sound Not yet implemented
-	throw box Not yet implemented
-	Event Not yet implemented
+	Random Smash Sound
+	Throw Box
+	Unknown Event
 PlyCaptain5K_Share_ACTION_CapturePulledHi_figatree
 PlyCaptain5K_Share_ACTION_CaptureWaitHi_figatree
 PlyCaptain5K_Share_ACTION_CaptureDamageHi_figatree
@@ -1162,132 +1162,132 @@ Unknown Action
 Unknown Action
 Unknown Action
 Unknown Action
-	goto Not yet implemented
+	GoTo
 Unknown Action
-	goto Not yet implemented
+	GoTo
 PlyCaptain5K_Share_ACTION_DamageFlyTop_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_DamageFall_figatree
 PlyCaptain5K_Share_ACTION_DownBoundU_figatree
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_DownBoundD_figatree
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
+	Graphic Effect
+	Graphic Effect
 PlyCaptain5K_Share_ACTION_DownStandU_figatree
 PlyCaptain5K_Share_ACTION_DownStandD_figatree
 Unknown Action
 Unknown Action
 Unknown Action
 PlyCaptain5K_Share_ACTION_Swing42_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing42_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing42_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing42_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing42_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_Swing42_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialN_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialAirN_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialSStart_figatree
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Sound Effect Not yet implemented
+	Sound Effect
+	Generate Article
+	AsynchronousTimer
+	Graphic Effect
+	Sound Effect
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 2c
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 2c
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialS_figatree
-	Sound Effect Not yet implemented
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
-	graphic effect Not yet implemented
-	- generate article Not yet implemented
-	async timer Not yet implemented
+	Sound Effect
+	Sound Effect
+	Graphic Effect
+	Graphic Effect
+	Generate Article
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 7
 		Element: 04
-	async timer Not yet implemented
-	end collisions Not yet implemented
+	AsynchronousTimer
+	End Collisions
 PlyCaptain5K_Share_ACTION_SpecialAirSStart_figatree
-	Sound Effect Not yet implemented
-	- generate article Not yet implemented
-	async timer Not yet implemented
-	graphic effect Not yet implemented
-	Sound Effect Not yet implemented
+	Sound Effect
+	Generate Article
+	AsynchronousTimer
+	Graphic Effect
+	Sound Effect
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 2c
 	Hitbox Data
 		Hitbox damage: 0
 		Element: 2c
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialAirS_figatree
-	Sound Effect Not yet implemented
-	Sound Effect Not yet implemented
-	graphic effect Not yet implemented
-	- generate article Not yet implemented
-	async timer Not yet implemented
+	Sound Effect
+	Sound Effect
+	Graphic Effect
+	Generate Article
+	AsynchronousTimer
 	Hitbox Data
 		Hitbox damage: 7
 		Element: 04
-	async timer Not yet implemented
-	end collisions Not yet implemented
+	AsynchronousTimer
+	End Collisions
 PlyCaptain5K_Share_ACTION_SpecialHi_figatree
-	- generate article Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	Event Not yet implemented
+	Generate Article
+	Graphic Effect
+	AsynchronousTimer
+	Auto Cancel
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialAirHi_figatree
-	- generate article Not yet implemented
-	graphic effect Not yet implemented
-	async timer Not yet implemented
-	auto cancel Not yet implemented
-	Event Not yet implemented
+	Generate Article
+	Graphic Effect
+	AsynchronousTimer
+	Auto Cancel
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialHiCatch_figatree
-	graphic effect Not yet implemented
-	- generate article Not yet implemented
-	end collisions Not yet implemented
-	sync Not yet implemented
+	Graphic Effect
+	Generate Article
+	End Collisions
+	Synchronous Timer
 	Hitbox Data
 		Hitbox damage: 5
 		Element: 04
-	sync Not yet implemented
-	end collisions Not yet implemented
-	async timer Not yet implemented
+	Synchronous Timer
+	End Collisions
+	AsynchronousTimer
 PlyCaptain5K_Share_ACTION_SpecialHiThrow_figatree
-	throw box Not yet implemented
+	Throw Box
 PlyCaptain5K_Share_ACTION_SpecialLw_figatree
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	Event Not yet implemented
+	Sound Effect
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialLwEnd_figatree
-	sync Not yet implemented
-	Event Not yet implemented
+	Synchronous Timer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialAirLw_figatree
-	Sound Effect Not yet implemented
-	async timer Not yet implemented
-	Event Not yet implemented
+	Sound Effect
+	AsynchronousTimer
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialAirLwEnd_figatree
-	Event Not yet implemented
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialLwEndAir_figatree
-	sync Not yet implemented
-	auto cancel Not yet implemented
-	Event Not yet implemented
+	Synchronous Timer
+	Auto Cancel
+	Unknown Event
 PlyCaptain5K_Share_ACTION_SpecialAirLwEndAir_figatree
 PlyCaptain5K_Share_ACTION_SpecialHiThrow_figatree
-	graphic effect Not yet implemented
-	- generate article Not yet implemented
-	Sound Effect Not yet implemented
+	Graphic Effect
+	Generate Article
+	Sound Effect
