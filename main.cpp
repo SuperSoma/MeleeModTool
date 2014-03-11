@@ -48,36 +48,36 @@ typedef struct attributes {
 		unsigned char *data;
 		int offset;
 	public:
-		void read(FILE *file, unsigned  char d);
-		void display();
+		virtual void read(FILE *file, unsigned char d);
+		virtual void display();
  };
  
  //Flow of execution
- class synchronousTimer : public event { public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
- class asynchronousTimer : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
- class setLoop : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
- class executeLoop : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
- class goTo : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
- class subroutine : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
- class autoCancel : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;;};
- class allowInterrupt : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
- class startSmashCharge : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
+ class synchronousTimer : public event { public:  void read(FILE *file,  unsigned char d); void display();};
+ class asynchronousTimer : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class setLoop : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class executeLoop : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class goTo : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class subroutine : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class autoCancel : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class allowInterrupt : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class startSmashCharge : public event {public:  void read(FILE *file,  unsigned char d); void display();};
  //Collision
- class hitbox : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
- class terminateCollisions : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
- class bodyState : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
- class throwBox : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
+ class hitbox : public event {public: void read(FILE *file, unsigned char d);  void display();};
+ class terminateCollisions : public event {public: void read(FILE *file, unsigned char d);  void display();};
+ class bodyState : public event {public: void read(FILE *file, unsigned char d);  void display();};
+ class throwBox : public event {public:  void read(FILE *file,  unsigned char d); void display();};
  //Articles
- class generateArticle : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
+ class generateArticle : public event {public: void read(FILE *file, unsigned char d);  void display();};
  //Damage
- class selfDamage : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
+ class selfDamage : public event {public: void read(FILE *file, unsigned char d);  void display();};
  //Posture
- class reverseDirection : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
+ class reverseDirection : public event {public:  void read(FILE *file,  unsigned char d); void display();};
  //Graphics
- class graphicEffect : public event {public: void read(FILE *file,  unsigned char d); using event::read; void display();using event::display;};
+ class graphicEffect : public event {public:  void read(FILE *file,  unsigned char d); void display();};
  //Sound Effects
- class soundEffect : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
- class smashSound : public event {public: void read(FILE *file, unsigned  char d); using event::read; void display();using event::display;};
+ class soundEffect : public event {public:  void read(FILE *file,  unsigned char d); void display();};
+ class smashSound : public event {public:  void read(FILE *file,  unsigned char d); void display();};
  
 //These are the subactions
 typedef struct subActionHeader {
@@ -249,26 +249,25 @@ SubActionHeader *getSubActionHeaders(FILE *file, SmashHeader *smash) {
 	printf("-------------------------------------------------------------------------------\n");
 	printf("SubAction Names\n_______________\n");
 	//Try reading a name?
-	char a;
+	unsigned char a;
 	for (int i = 0; i < numOfElements; i++) {
 		fseek(file, headers[i].nameOffset + 0x20, SEEK_SET);
-		fread(&a, sizeof(char), 1, file);
+		fread(&a, sizeof(unsigned char), 1, file);
 		while(a != '\0') {
 			printf("%c", a);
-			fread(&a, sizeof(char), 1, file);
+			fread(&a, sizeof(unsigned char), 1, file);
 		}
 		headers[i].eventActions = new std::vector<event*>();
 		printf("\n");
 		unsigned char buf;
 		fseek(file, headers[i].events + 0x20, SEEK_SET);
 		fread(&buf, 1, 1, file);
-		printf("%x\n", buf);
 		while(buf != 0) {
 			event *e;
 			e = getEventType(buf);
 			headers[i].eventActions->push_back(e);
 			e->read(file, buf);
-			fread(&buf, sizeof(char), 1, file);
+			fread(&buf, sizeof(unsigned char), 1, file);
 		}
 		std::vector<event*>::iterator it;
 		for (it=headers[i].eventActions->begin(); it<headers[i].eventActions->end(); it++)
@@ -280,102 +279,102 @@ SubActionHeader *getSubActionHeaders(FILE *file, SmashHeader *smash) {
 
 //Get the data from some files
 void synchronousTimer::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned  char[4];
+	data = new unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size =4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void synchronousTimer::display() {
-		printf("\t%02x - sync Not yet implemented\n", data[0]);
+		printf("\tsync Not yet implemented\n");
 }
 
 void asynchronousTimer::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned char[4];
+	data = new unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void asynchronousTimer::display() {
-	printf("\t%02x - async timer Not yet implemented\n", data[0]);
+	printf("\tasync timer Not yet implemented\n");
 }
 
 void setLoop::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned  char[4];
+	data = new unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size =4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void setLoop::display() {
-	printf("\t%02x - set loop Not yet implemented\n", data[0]);
+	printf("\tset loop Not yet implemented\n");
 }
 
 void executeLoop::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new  unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void executeLoop::display() {
-	printf("\t%02x - execute  Not yet implemented\n", data[0]);
+	printf("\texecute  Not yet implemented\n");
 }
 
 void goTo::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new  unsigned char[8];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 8;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void goTo::display() {
-	printf("\t%02x - goto Not yet implemented\n", data[0]);
+	printf("\tgoto Not yet implemented\n");
 }
 
 void subroutine::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned char[4];
+	data = new unsigned char[8];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 8;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void subroutine::display() {
-	printf("\t%02x - subroutine Not yet implemented\n", data[0]);
+	printf("\t subroutine Not yet implemented\n");
 }
 
 void autoCancel::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new  unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
@@ -385,202 +384,202 @@ void autoCancel::display() {
 }
 
 void allowInterrupt::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned  char[4];
+	data = new unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = sizeof(data) / sizeof(unsigned char);
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void allowInterrupt::display() {
-	printf("\t%02x - allow interrupt Not yet implemented\n", data[0]);
+	printf("\tallow interrupt Not yet implemented\n");
 }
 
 void startSmashCharge::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new unsigned char[8];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 8;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void startSmashCharge::display() {
-	printf("\t%02x - start smash charge Not yet implemented\n", data[0]);
+	printf("\tstart smash unsigned charge Not yet implemented\n");
 }
 
 void hitbox::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new unsigned char[20];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 20;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void hitbox::display() {
-	int damage;
-	damage += (data[2] & 1) << 8;
-	damage += data[3];
-	printf("\t - Hitbox damage: %i\n", data[0],damage);
+	unsigned short damage =0;
+	printf("\tHitbox Data\n");
+	damage = ((data[2] & 1) << 8) + data[3];
+	printf("\t\tHitbox damage: %i\n", damage);
+	printf("\t\tElement: %02x\n", data[17]);
 }
 
 void terminateCollisions::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new  unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void terminateCollisions::display() {
-	printf("\t%02x - end collisions Not yet implemented\n", data[0]);
+	printf("\tend collisions Not yet implemented\n");
 }
 
 void bodyState::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned  char[4];
+	data = new unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void bodyState::display() {
-	printf("\t%02x - body state Not yet implemented\n", data[0]);
+	printf("\tbody state Not yet implemented\n");
 }
 
 void throwBox::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned  char[4];
+	data = new unsigned char[16];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 16;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void throwBox::display() {
-	printf("\t%02x - throw box Not yet implemented\n", data[0]);
+	printf("\tthrow box Not yet implemented\n");
 }
 
 void generateArticle::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new  unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void generateArticle::display() {
-	printf("\t%02x - generate article Not yet implemented\n", data[0]);
+	printf("\t- generate article Not yet implemented\n");
 }
 
 void selfDamage::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new  unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void selfDamage::display() {
-	printf("\t%02x - self damage Not yet implemented\n", data[0]);
+	printf("\tself damage Not yet implemented\n");
 }
 
 void reverseDirection::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned char[4];
+	data = new unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void reverseDirection::display() {
-	printf("\t%02x - reverse direction Not yet implemented\n", data[0]);
+	printf("\t%02x - reverse direction Not yet implemented\n");
 }
 
 void graphicEffect::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[20];
+	data = new  unsigned char[20];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 20;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void graphicEffect::display() {
-	printf("\t%02x - graphic effect Not yet implemented\n", data[0]);
+	printf("\tgraphic effect Not yet implemented\n");
 }
 
 void soundEffect::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new  unsigned char[4];
+	data = new  unsigned char[12];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 12;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void soundEffect::display() {
-	printf("\t%02x - Sound Effect Not yet implemented\n", data[0]);
+	printf("\tSound Effect Not yet implemented\n");
 }
 
 void smashSound::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned  char[4];
+	data = new unsigned char[4];
 	data[0] = d;
-	int size = sizeof(data) / sizeof(char);
+	int size = 4;
 	unsigned char buffer;
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void smashSound::display() {
-	printf("\t%x - Random Smash Sound Not yet implemented\n", data[0]);
+	printf("\tRandom Smash Sound Not yet implemented\n");
 }
 
 void event::read(FILE *file, unsigned char d) { //Assumes file reading position will be correct
-	unsigned char *data = new unsigned char[4];
+	data = new unsigned char[4];
 	data[0] = d;
 	int size = sizeof(data) / 2;
 	unsigned char buffer;
-	printf("%i\t", size);
 	for (int i=1; i < size; i++) {
-		fread(&buffer, sizeof(char), 1, file);
+		fread(&buffer, sizeof(unsigned char), 1, file);
 		data[i] = buffer;
 	}
 } 
 
 void event::display() {
-	printf("\t%x - Event Not yet implemented\n", &data[0]);
+	printf("\tEvent Not yet implemented\n");
 }
 
 //Get the event
@@ -612,8 +611,8 @@ event *getEventType(unsigned char ev) {
 			return new bodyState();	
 		case 0x88:
 			return new throwBox();	
-		//case 0xAC:
-		//	return new generateArticle();	
+		case 0xAC:
+			return new generateArticle();	
 		case 0xCC:
 			return new selfDamage();		
 		case 0x50:
