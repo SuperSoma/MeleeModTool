@@ -116,1937 +116,1178 @@ Unknown: 0.000000
 -------------------------------------------------------------------------------
 SubAction Names
 _______________
-PlyCaptain5K_Share_ACTION_WallDamage_figatree - At address: 0x00000018
-PlyCaptain5K_Share_ACTION_DamageFall_figatree - At address: 0x00000048
-PlyCaptain5K_Share_ACTION_Wait1_figatree - At address: 0x00000078
-PlyCaptain5K_Share_ACTION_Wait2_figatree - At address: 0x000000a4
-PlyCaptain5K_Share_ACTION_Wait3_figatree - At address: 0x000000d0
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_WaitItem_figatree - At address: 0x000000fc
-PlyCaptain5K_Share_ACTION_WalkSlow_figatree - At address: 0x00000128
-PlyCaptain5K_Share_ACTION_WalkMiddle_figatree - At address: 0x00000154
-PlyCaptain5K_Share_ACTION_WalkFast_figatree - At address: 0x00000184
-PlyCaptain5K_Share_ACTION_Turn_figatree - At address: 0x000001b0
-PlyCaptain5K_Share_ACTION_TurnRun_figatree - At address: 0x000001d8
-PlyCaptain5K_Share_ACTION_Dash_figatree - At address: 0x00000204
-PlyCaptain5K_Share_ACTION_Run_figatree - At address: 0x0000022c
-PlyCaptain5K_Share_ACTION_RunBrake_figatree - At address: 0x00000254
-PlyCaptain5K_Share_ACTION_Landing_figatree - At address: 0x00000280
-PlyCaptain5K_Share_ACTION_JumpF_figatree - At address: 0x000002ac
-PlyCaptain5K_Share_ACTION_JumpB_figatree - At address: 0x000002d8
-PlyCaptain5K_Share_ACTION_JumpAerialF_figatree - At address: 0x00000304
-PlyCaptain5K_Share_ACTION_JumpAerialB_figatree - At address: 0x00000334
-PlyCaptain5K_Share_ACTION_Fall_figatree - At address: 0x00000364
-PlyCaptain5K_Share_ACTION_FallF_figatree - At address: 0x0000038c
-PlyCaptain5K_Share_ACTION_FallB_figatree - At address: 0x000003b8
-PlyCaptain5K_Share_ACTION_FallAerial_figatree - At address: 0x000003e4
-PlyCaptain5K_Share_ACTION_FallAerialF_figatree - At address: 0x00000414
-PlyCaptain5K_Share_ACTION_FallAerialB_figatree - At address: 0x00000444
-PlyCaptain5K_Share_ACTION_FallSpecial_figatree - At address: 0x00000474
-PlyCaptain5K_Share_ACTION_FallSpecialF_figatree - At address: 0x000004a4
-PlyCaptain5K_Share_ACTION_FallSpecialB_figatree - At address: 0x000004d4
-PlyCaptain5K_Share_ACTION_DamageFall_figatree - At address: 0x00000048
-PlyCaptain5K_Share_ACTION_Squat_figatree - At address: 0x00000504
-PlyCaptain5K_Share_ACTION_SquatWait_figatree - At address: 0x00000530
- - At address: 0x00000000
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_SquatRv_figatree - At address: 0x00000560
-PlyCaptain5K_Share_ACTION_Landing_figatree - At address: 0x00000280
-PlyCaptain5K_Share_ACTION_Landing_figatree - At address: 0x00000280
-PlyCaptain5K_Share_ACTION_GuardOn_figatree - At address: 0x0000058c
-PlyCaptain5K_Share_ACTION_Guard_figatree - At address: 0x000005b8
-PlyCaptain5K_Share_ACTION_GuardOff_figatree - At address: 0x000005e4
-PlyCaptain5K_Share_ACTION_GuardDamage_figatree - At address: 0x00000610
-PlyCaptain5K_Share_ACTION_EscapeN_figatree - At address: 0x00000640
-PlyCaptain5K_Share_ACTION_EscapeF_figatree - At address: 0x0000066c
-PlyCaptain5K_Share_ACTION_EscapeB_figatree - At address: 0x00000698
-PlyCaptain5K_Share_ACTION_EscapeAir_figatree - At address: 0x000006c4
-PlyCaptain5K_Share_ACTION_Rebound_figatree - At address: 0x000006f4
-PlyCaptain5K_Share_ACTION_Attack11_figatree - At address: 0x00000720
-PlyCaptain5K_Share_ACTION_Attack12_figatree - At address: 0x0000074c
-PlyCaptain5K_Share_ACTION_Attack13_figatree - At address: 0x00000778
-PlyCaptain5K_Share_ACTION_Attack100Start_figatree - At address: 0x000007a4
-PlyCaptain5K_Share_ACTION_Attack100Loop_figatree - At address: 0x000007d8
-PlyCaptain5K_Share_ACTION_Attack100End_figatree - At address: 0x0000080c
-PlyCaptain5K_Share_ACTION_AttackDash_figatree - At address: 0x0000083c
-PlyCaptain5K_Share_ACTION_AttackS3Hi_figatree - At address: 0x0000086c
-PlyCaptain5K_Share_ACTION_AttackS3HiS_figatree - At address: 0x0000089c
-PlyCaptain5K_Share_ACTION_AttackS3S_figatree - At address: 0x000008cc
-PlyCaptain5K_Share_ACTION_AttackS3LwS_figatree - At address: 0x000008fc
-PlyCaptain5K_Share_ACTION_AttackS3Lw_figatree - At address: 0x0000092c
-PlyCaptain5K_Share_ACTION_AttackHi3_figatree - At address: 0x0000095c
-PlyCaptain5K_Share_ACTION_AttackLw3_figatree - At address: 0x0000098c
-PlyCaptain5K_Share_ACTION_AttackS4Hi_figatree - At address: 0x000009bc
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_AttackS4S_figatree - At address: 0x000009ec
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_AttackS4Lw_figatree - At address: 0x00000a1c
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_AttackHi4_figatree - At address: 0x00000a4c
-PlyCaptain5K_Share_ACTION_AttackLw4_figatree - At address: 0x00000a7c
-PlyCaptain5K_Share_ACTION_AttackAirN_figatree - At address: 0x00000aac
-PlyCaptain5K_Share_ACTION_AttackAirF_figatree - At address: 0x00000adc
-PlyCaptain5K_Share_ACTION_AttackAirB_figatree - At address: 0x00000b0c
-PlyCaptain5K_Share_ACTION_AttackAirHi_figatree - At address: 0x00000b3c
-PlyCaptain5K_Share_ACTION_AttackAirLw_figatree - At address: 0x00000b6c
-PlyCaptain5K_Share_ACTION_LandingAirN_figatree - At address: 0x00000b9c
-PlyCaptain5K_Share_ACTION_LandingAirF_figatree - At address: 0x00000bcc
-PlyCaptain5K_Share_ACTION_LandingAirB_figatree - At address: 0x00000bfc
-PlyCaptain5K_Share_ACTION_LandingAirHi_figatree - At address: 0x00000c2c
-PlyCaptain5K_Share_ACTION_LandingAirLw_figatree - At address: 0x00000c5c
-PlyCaptain5K_Share_ACTION_LightGet_figatree - At address: 0x00000c8c
-PlyCaptain5K_Share_ACTION_LightThrowF_figatree - At address: 0x00000cb8
-PlyCaptain5K_Share_ACTION_LightThrowB_figatree - At address: 0x00000ce8
-PlyCaptain5K_Share_ACTION_LightThrowHi_figatree - At address: 0x00000d18
-PlyCaptain5K_Share_ACTION_LightThrowLw_figatree - At address: 0x00000d48
-PlyCaptain5K_Share_ACTION_LightThrowDash_figatree - At address: 0x00000d78
-PlyCaptain5K_Share_ACTION_LightThrowDrop_figatree - At address: 0x00000dac
-PlyCaptain5K_Share_ACTION_LightThrowAirF_figatree - At address: 0x00000de0
-PlyCaptain5K_Share_ACTION_LightThrowAirB_figatree - At address: 0x00000e14
-PlyCaptain5K_Share_ACTION_LightThrowAirHi_figatree - At address: 0x00000e48
-PlyCaptain5K_Share_ACTION_LightThrowAirLw_figatree - At address: 0x00000e7c
-PlyCaptain5K_Share_ACTION_HeavyGet_figatree - At address: 0x00000eb0
-PlyCaptain5K_Share_ACTION_HeavyWalk1_figatree - At address: 0x00000edc
-PlyCaptain5K_Share_ACTION_HeavyWalk2_figatree - At address: 0x00000f0c
-PlyCaptain5K_Share_ACTION_HeavyThrowF_figatree - At address: 0x00000f3c
-PlyCaptain5K_Share_ACTION_HeavyThrowB_figatree - At address: 0x00000f6c
-PlyCaptain5K_Share_ACTION_HeavyThrowHi_figatree - At address: 0x00000f9c
-PlyCaptain5K_Share_ACTION_HeavyThrowLw_figatree - At address: 0x00000fcc
-PlyCaptain5K_Share_ACTION_LightThrowF_figatree - At address: 0x00000cb8
-PlyCaptain5K_Share_ACTION_LightThrowB_figatree - At address: 0x00000ce8
-PlyCaptain5K_Share_ACTION_LightThrowHi_figatree - At address: 0x00000d18
-PlyCaptain5K_Share_ACTION_LightThrowLw_figatree - At address: 0x00000d48
-PlyCaptain5K_Share_ACTION_LightThrowAirF_figatree - At address: 0x00000de0
-PlyCaptain5K_Share_ACTION_LightThrowAirB_figatree - At address: 0x00000e14
-PlyCaptain5K_Share_ACTION_LightThrowAirHi_figatree - At address: 0x00000e48
-PlyCaptain5K_Share_ACTION_LightThrowAirLw_figatree - At address: 0x00000e7c
-PlyCaptain5K_Share_ACTION_HeavyThrowF_figatree - At address: 0x00000f3c
-PlyCaptain5K_Share_ACTION_HeavyThrowB_figatree - At address: 0x00000f6c
-PlyCaptain5K_Share_ACTION_HeavyThrowHi_figatree - At address: 0x00000f9c
-PlyCaptain5K_Share_ACTION_HeavyThrowLw_figatree - At address: 0x00000fcc
-PlyCaptain5K_Share_ACTION_Swing1_figatree - At address: 0x00000ffc
-PlyCaptain5K_Share_ACTION_Swing3_figatree - At address: 0x00001028
-PlyCaptain5K_Share_ACTION_Swing41_figatree - At address: 0x00001054
-PlyCaptain5K_Share_ACTION_SwingDash_figatree - At address: 0x00001080
-PlyCaptain5K_Share_ACTION_Swing1_figatree - At address: 0x00000ffc
-PlyCaptain5K_Share_ACTION_Swing3_figatree - At address: 0x00001028
-PlyCaptain5K_Share_ACTION_Swing41_figatree - At address: 0x00001054
-PlyCaptain5K_Share_ACTION_SwingDash_figatree - At address: 0x00001080
-PlyCaptain5K_Share_ACTION_Swing1_figatree - At address: 0x00000ffc
-PlyCaptain5K_Share_ACTION_Swing3_figatree - At address: 0x00001028
-PlyCaptain5K_Share_ACTION_Swing41_figatree - At address: 0x00001054
-PlyCaptain5K_Share_ACTION_SwingDash_figatree - At address: 0x00001080
-PlyCaptain5K_Share_ACTION_Swing1_figatree - At address: 0x00000ffc
-PlyCaptain5K_Share_ACTION_Swing3_figatree - At address: 0x00001028
-PlyCaptain5K_Share_ACTION_Swing41_figatree - At address: 0x00001054
-PlyCaptain5K_Share_ACTION_SwingDash_figatree - At address: 0x00001080
-PlyCaptain5K_Share_ACTION_Swing1_figatree - At address: 0x00000ffc
-PlyCaptain5K_Share_ACTION_Swing3_figatree - At address: 0x00001028
-PlyCaptain5K_Share_ACTION_Swing41_figatree - At address: 0x00001054
-PlyCaptain5K_Share_ACTION_SwingDash_figatree - At address: 0x00001080
-PlyCaptain5K_Share_ACTION_Swing1_figatree - At address: 0x00000ffc
-PlyCaptain5K_Share_ACTION_Swing3_figatree - At address: 0x00001028
-PlyCaptain5K_Share_ACTION_Swing41_figatree - At address: 0x00001054
-PlyCaptain5K_Share_ACTION_SwingDash_figatree - At address: 0x00001080
-PlyCaptain5K_Share_ACTION_ItemHammerWait_figatree - At address: 0x000010b0
-PlyCaptain5K_Share_ACTION_ItemHammerMove_figatree - At address: 0x000010e4
-PlyCaptain5K_Share_ACTION_ItemParasolOpen_figatree - At address: 0x00001118
-PlyCaptain5K_Share_ACTION_ItemParasolFall_figatree - At address: 0x0000114c
-PlyCaptain5K_Share_ACTION_ItemParasolFall_figatree - At address: 0x0000114c
-PlyCaptain5K_Share_ACTION_DamageFall_figatree - At address: 0x00000048
-PlyCaptain5K_Share_ACTION_ItemShoot_figatree - At address: 0x00001180
-PlyCaptain5K_Share_ACTION_ItemShootAir_figatree - At address: 0x000011b0
-PlyCaptain5K_Share_ACTION_ItemShoot_figatree - At address: 0x00001180
-PlyCaptain5K_Share_ACTION_ItemShootAir_figatree - At address: 0x000011b0
-PlyCaptain5K_Share_ACTION_ItemShoot_figatree - At address: 0x00001180
-PlyCaptain5K_Share_ACTION_ItemShootAir_figatree - At address: 0x000011b0
-PlyCaptain5K_Share_ACTION_ItemScrew_figatree - At address: 0x000011e0
-PlyCaptain5K_Share_ACTION_ItemScrewAir_figatree - At address: 0x00001210
-PlyCaptain5K_Share_ACTION_ItemScrewDamage_figatree - At address: 0x00001240
-PlyCaptain5K_Share_ACTION_ItemScrewDamage_figatree - At address: 0x00001240
-PlyCaptain5K_Share_ACTION_ItemBlind_figatree - At address: 0x00001274
-PlyCaptain5K_Share_ACTION_ItemScopeStart_figatree - At address: 0x000012a4
-PlyCaptain5K_Share_ACTION_ItemScopeRapid_figatree - At address: 0x000012d8
-PlyCaptain5K_Share_ACTION_ItemScopeFire_figatree - At address: 0x0000130c
-PlyCaptain5K_Share_ACTION_ItemScopeEnd_figatree - At address: 0x00001340
-PlyCaptain5K_Share_ACTION_ItemScopeAirStart_figatree - At address: 0x00001370
-PlyCaptain5K_Share_ACTION_ItemScopeAirRapid_figatree - At address: 0x000013a8
-PlyCaptain5K_Share_ACTION_ItemScopeAirFire_figatree - At address: 0x000013e0
-PlyCaptain5K_Share_ACTION_ItemScopeAirEnd_figatree - At address: 0x00001414
-PlyCaptain5K_Share_ACTION_ItemScopeStart_figatree - At address: 0x000012a4
-PlyCaptain5K_Share_ACTION_ItemScopeRapid_figatree - At address: 0x000012d8
-PlyCaptain5K_Share_ACTION_ItemScopeFire_figatree - At address: 0x0000130c
-PlyCaptain5K_Share_ACTION_ItemScopeEnd_figatree - At address: 0x00001340
-PlyCaptain5K_Share_ACTION_ItemScopeAirStart_figatree - At address: 0x00001370
-PlyCaptain5K_Share_ACTION_ItemScopeAirRapid_figatree - At address: 0x000013a8
-PlyCaptain5K_Share_ACTION_ItemScopeAirFire_figatree - At address: 0x000013e0
-PlyCaptain5K_Share_ACTION_ItemScopeAirEnd_figatree - At address: 0x00001414
-PlyCaptain5K_Share_ACTION_DamageHi1_figatree - At address: 0x00001448
-PlyCaptain5K_Share_ACTION_DamageHi2_figatree - At address: 0x00001478
-PlyCaptain5K_Share_ACTION_DamageHi3_figatree - At address: 0x000014a8
-PlyCaptain5K_Share_ACTION_DamageN1_figatree - At address: 0x000014d8
-PlyCaptain5K_Share_ACTION_DamageN2_figatree - At address: 0x00001504
-PlyCaptain5K_Share_ACTION_DamageN3_figatree - At address: 0x00001530
-PlyCaptain5K_Share_ACTION_DamageLw1_figatree - At address: 0x0000155c
-PlyCaptain5K_Share_ACTION_DamageLw2_figatree - At address: 0x0000158c
-PlyCaptain5K_Share_ACTION_DamageLw3_figatree - At address: 0x000015bc
-PlyCaptain5K_Share_ACTION_DamageAir1_figatree - At address: 0x000015ec
-PlyCaptain5K_Share_ACTION_DamageAir2_figatree - At address: 0x0000161c
-PlyCaptain5K_Share_ACTION_DamageAir3_figatree - At address: 0x0000164c
-PlyCaptain5K_Share_ACTION_DamageFlyHi_figatree - At address: 0x0000167c
-PlyCaptain5K_Share_ACTION_DamageFlyN_figatree - At address: 0x000016ac
-PlyCaptain5K_Share_ACTION_DamageFlyLw_figatree - At address: 0x000016dc
-PlyCaptain5K_Share_ACTION_DamageFlyTop_figatree - At address: 0x0000170c
-PlyCaptain5K_Share_ACTION_DamageFlyRoll_figatree - At address: 0x0000173c
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_DownBoundU_figatree - At address: 0x00001770
-PlyCaptain5K_Share_ACTION_DownWaitU_figatree - At address: 0x000017a0
-PlyCaptain5K_Share_ACTION_DownDamageU_figatree - At address: 0x000017d0
-PlyCaptain5K_Share_ACTION_DownStandU_figatree - At address: 0x00001800
-PlyCaptain5K_Share_ACTION_DownAttackU_figatree - At address: 0x00001830
-PlyCaptain5K_Share_ACTION_DownFowardU_figatree - At address: 0x00001860
-PlyCaptain5K_Share_ACTION_DownBackU_figatree - At address: 0x00001890
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_DownBoundD_figatree - At address: 0x000018c0
-PlyCaptain5K_Share_ACTION_DownWaitD_figatree - At address: 0x000018f0
-PlyCaptain5K_Share_ACTION_DownDamageD_figatree - At address: 0x00001920
-PlyCaptain5K_Share_ACTION_DownStandD_figatree - At address: 0x00001950
-PlyCaptain5K_Share_ACTION_DownAttackD_figatree - At address: 0x00001980
-PlyCaptain5K_Share_ACTION_DownFowardD_figatree - At address: 0x000019b0
-PlyCaptain5K_Share_ACTION_DownBackD_figatree - At address: 0x000019e0
-PlyCaptain5K_Share_ACTION_DownSpotD_figatree - At address: 0x00001a10
-PlyCaptain5K_Share_ACTION_Passive_figatree - At address: 0x00001a40
-PlyCaptain5K_Share_ACTION_PassiveStandF_figatree - At address: 0x00001a6c
-PlyCaptain5K_Share_ACTION_PassiveStandB_figatree - At address: 0x00001aa0
-PlyCaptain5K_Share_ACTION_PassiveWall_figatree - At address: 0x00001ad4
-PlyCaptain5K_Share_ACTION_PassiveWallJump_figatree - At address: 0x00001b04
-PlyCaptain5K_Share_ACTION_PassiveCeil_figatree - At address: 0x00001b38
-PlyCaptain5K_Share_ACTION_FuraFura_figatree - At address: 0x00001b68
-PlyCaptain5K_Share_ACTION_FuraSleepStart_figatree - At address: 0x00001b94
-PlyCaptain5K_Share_ACTION_FuraSleepLoop_figatree - At address: 0x00001bc8
-PlyCaptain5K_Share_ACTION_FuraSleepEnd_figatree - At address: 0x00001bfc
-PlyCaptain5K_Share_ACTION_Pass_figatree - At address: 0x00001c2c
-PlyCaptain5K_Share_ACTION_Ottotto_figatree - At address: 0x00001c54
-PlyCaptain5K_Share_ACTION_OttottoWait_figatree - At address: 0x00001c80
-PlyCaptain5K_Share_ACTION_WallDamage_figatree - At address: 0x00000018
-PlyCaptain5K_Share_ACTION_StopWall_figatree - At address: 0x00001cb0
-PlyCaptain5K_Share_ACTION_StopCeil_figatree - At address: 0x00001cdc
-PlyCaptain5K_Share_ACTION_MissFoot_figatree - At address: 0x00001d08
-PlyCaptain5K_Share_ACTION_CliffCatch_figatree - At address: 0x00001d34
-PlyCaptain5K_Share_ACTION_CliffWait1_figatree - At address: 0x00001d64
-PlyCaptain5K_Share_ACTION_CliffWait2_figatree - At address: 0x00001d94
-PlyCaptain5K_Share_ACTION_CliffClimbSlow_figatree - At address: 0x00001dc4
-PlyCaptain5K_Share_ACTION_CliffClimbQuick_figatree - At address: 0x00001df8
-PlyCaptain5K_Share_ACTION_CliffAttackSlow_figatree - At address: 0x00001e2c
-PlyCaptain5K_Share_ACTION_CliffAttackQuick_figatree - At address: 0x00001e60
-PlyCaptain5K_Share_ACTION_CliffEscapeSlow_figatree - At address: 0x00001e94
-PlyCaptain5K_Share_ACTION_CliffEscapeQuick_figatree - At address: 0x00001ec8
-PlyCaptain5K_Share_ACTION_CliffJumpSlow1_figatree - At address: 0x00001efc
-PlyCaptain5K_Share_ACTION_CliffJumpSlow2_figatree - At address: 0x00001f30
-PlyCaptain5K_Share_ACTION_CliffJumpQuick1_figatree - At address: 0x00001f64
-PlyCaptain5K_Share_ACTION_CliffJumpQuick2_figatree - At address: 0x00001f98
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_Entry_figatree - At address: 0x00001fcc
-PlyCaptain5K_Share_ACTION_AppealR_figatree - At address: 0x00001ff8
-PlyCaptain5K_Share_ACTION_AppealL_figatree - At address: 0x00002024
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_Catch_figatree - At address: 0x00002050
-PlyCaptain5K_Share_ACTION_CatchDash_figatree - At address: 0x0000207c
-PlyCaptain5K_Share_ACTION_CatchWait_figatree - At address: 0x000020ac
-PlyCaptain5K_Share_ACTION_CatchAttack_figatree - At address: 0x000020dc
-PlyCaptain5K_Share_ACTION_CatchCut_figatree - At address: 0x0000210c
-PlyCaptain5K_Share_ACTION_ThrowF_figatree - At address: 0x00002138
-PlyCaptain5K_Share_ACTION_ThrowB_figatree - At address: 0x00002164
-PlyCaptain5K_Share_ACTION_ThrowHi_figatree - At address: 0x00002190
-PlyCaptain5K_Share_ACTION_ThrowLw_figatree - At address: 0x000021bc
-PlyCaptain5K_Share_ACTION_CapturePulledHi_figatree - At address: 0x000021e8
-PlyCaptain5K_Share_ACTION_CaptureWaitHi_figatree - At address: 0x0000221c
-PlyCaptain5K_Share_ACTION_CaptureDamageHi_figatree - At address: 0x00002250
-PlyCaptain5K_Share_ACTION_CapturePulledLw_figatree - At address: 0x00002284
-PlyCaptain5K_Share_ACTION_CaptureWaitLw_figatree - At address: 0x000022b8
-PlyCaptain5K_Share_ACTION_CaptureDamageLw_figatree - At address: 0x000022ec
-PlyCaptain5K_Share_ACTION_CaptureCut_figatree - At address: 0x00002320
-PlyCaptain5K_Share_ACTION_CaptureJump_figatree - At address: 0x00002350
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
-PlyTaro_Share_ACTION_TCaptainThrowF_figatree - At address: 0x00002380
-PlyTaro_Share_ACTION_TCaptainThrowB_figatree - At address: 0x000023b0
-PlyTaro_Share_ACTION_TCaptainThrowHi_figatree - At address: 0x000023e0
-PlyTaro_Share_ACTION_TCaptainThrowLw_figatree - At address: 0x00002410
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
-PlyTaro_Share_ACTION_TCaptainSpecialHi_figatree - At address: 0x00002440
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_DamageFlyTop_figatree - At address: 0x0000170c
-PlyCaptain5K_Share_ACTION_DamageFall_figatree - At address: 0x00000048
-PlyCaptain5K_Share_ACTION_DownBoundU_figatree - At address: 0x00001770
-PlyCaptain5K_Share_ACTION_DownBoundD_figatree - At address: 0x000018c0
-PlyCaptain5K_Share_ACTION_DownStandU_figatree - At address: 0x00001800
-PlyCaptain5K_Share_ACTION_DownStandD_figatree - At address: 0x00001950
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_Swing42_figatree - At address: 0x00002470
-PlyCaptain5K_Share_ACTION_Swing42_figatree - At address: 0x00002470
-PlyCaptain5K_Share_ACTION_Swing42_figatree - At address: 0x00002470
-PlyCaptain5K_Share_ACTION_Swing42_figatree - At address: 0x00002470
-PlyCaptain5K_Share_ACTION_Swing42_figatree - At address: 0x00002470
-PlyCaptain5K_Share_ACTION_Swing42_figatree - At address: 0x00002470
-PlyCaptain5K_Share_ACTION_SpecialN_figatree - At address: 0x0000249c
-PlyCaptain5K_Share_ACTION_SpecialAirN_figatree - At address: 0x000024c8
-PlyCaptain5K_Share_ACTION_SpecialSStart_figatree - At address: 0x000024f8
-PlyCaptain5K_Share_ACTION_SpecialS_figatree - At address: 0x0000252c
-PlyCaptain5K_Share_ACTION_SpecialAirSStart_figatree - At address: 0x00002558
-PlyCaptain5K_Share_ACTION_SpecialAirS_figatree - At address: 0x0000258c
-PlyCaptain5K_Share_ACTION_SpecialHi_figatree - At address: 0x000025bc
-PlyCaptain5K_Share_ACTION_SpecialAirHi_figatree - At address: 0x000025ec
-PlyCaptain5K_Share_ACTION_SpecialHiCatch_figatree - At address: 0x0000261c
-PlyCaptain5K_Share_ACTION_SpecialHiThrow_figatree - At address: 0x00002650
-PlyCaptain5K_Share_ACTION_SpecialLw_figatree - At address: 0x00002684
-PlyCaptain5K_Share_ACTION_SpecialLwEnd_figatree - At address: 0x000026b4
-PlyCaptain5K_Share_ACTION_SpecialAirLw_figatree - At address: 0x000026e4
-PlyCaptain5K_Share_ACTION_SpecialAirLwEnd_figatree - At address: 0x00002714
-PlyCaptain5K_Share_ACTION_SpecialLwEndAir_figatree - At address: 0x00002748
-PlyCaptain5K_Share_ACTION_SpecialAirLwEndAir_figatree - At address: 0x0000277c
-PlyCaptain5K_Share_ACTION_SpecialHiThrow_figatree - At address: 0x00002650
-PlyCaptain5K_Share_ACTION_Win1_figatree - At address: 0x000027b4
-PlyCaptain5K_Share_ACTION_Win1Wait_figatree - At address: 0x000027dc
-PlyCaptain5K_Share_ACTION_Win2_figatree - At address: 0x00002808
-PlyCaptain5K_Share_ACTION_Win2Wait_figatree - At address: 0x00002830
- - At address: 0x00000000
-PlyCaptain5K_Share_ACTION_Win3_figatree - At address: 0x0000285c
-PlyCaptain5K_Share_ACTION_Win3Wait_figatree - At address: 0x00002884
-PlyCaptain5K_Share_ACTION_Selected_figatree - At address: 0x000028b0
-PlyCaptain5K_Share_ACTION_SelectedWait_figatree - At address: 0x000028dc
-PlyCaptain5K_Share_ACTION_Lose_figatree - At address: 0x0000290c
-PlyCaptain5K_Share_ACTION_IntroL_figatree - At address: 0x00002934
-PlyCaptain5K_Share_ACTION_IntroR_figatree - At address: 0x00002960
-PlyCaptain5K_Share_ACTION_Ending_figatree - At address: 0x0000298c
-PlyCaptain5K_Share_ACTION_Wait1_figatree - At address: 0x00000078
- - At address: 0x191a1b1c
- - At address: 0x0000cc28
- - At address: 0x0000df88
- - At address: 0x000102b4
- - At address: 0x00009868
- - At address: 0x000029ec
- - At address: 0x00007910
- - At address: 0x000232f0
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00009b40
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xc0072885
-in5K_Share_ACTION_AppealR_figatree - At address: 0xbf9809dd
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbefb0963
- - At address: 0x00000000
- - At address: 0x00009cc0
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbebef6f9
-in5K_Share_ACTION_AppealR_figatree - At address: 0xb58637bd
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x3e7ad81b
- - At address: 0x80000000
- - At address: 0x00009e40
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbe23c298
-in5K_Share_ACTION_AppealR_figatree - At address: 0xb60637bd
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x3dab92c0
- - At address: 0x3fb0c2c6
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3d390b85
- - At address: 0x0000a080
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x3e146888
- - At address: 0xbbe275ab
- - At address: 0x0000a140
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x3fae40f2
- - At address: 0xbdbefae8
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x3fb2b8bf
- - At address: 0x3c576ab6
- - At address: 0x0000a2c0
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbf000000
-in5K_Share_ACTION_AppealR_figatree - At address: 0xbb096dd2
- - At address: 0x0000a380
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0x80000000
-in5K_Share_ACTION_AppealR_figatree - At address: 0xbdbd9557
- - At address: 0x0000a440
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0x80000000
- - At address: 0x3e9c2353
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbef64628
- - At address: 0x3f270f8c
- - At address: 0x0000a5c0
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0x80000000
- - At address: 0x0000a680
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbfb2b8bf
- - At address: 0x3b94ee39
- - At address: 0x0000a740
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbfb6129d
- - At address: 0x3e875d79
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbfb2b8bf
-in5K_Share_ACTION_AppealR_figatree - At address: 0xbafe6927
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xbf32b8c7
-in5K_Share_ACTION_AppealR_figatree - At address: 0xbf6cdd72
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3f800000
- - At address: 0x00000000
- - At address: 0x11b7f30a
- - At address: 0x0000aa40
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x00000000
- - At address: 0x01668800
-}
-} - At address: 0x0000aaac
- - At address: 0x00000000
- - At address: 0x11b5790a
- - At address: 0x00000000
- - At address: 0x024f8800
-Q¸
-Q¸ - At address: 0x0000ab18
- - At address: 0x00000000
- - At address: 0x00000005
- - At address: 0x00000000
- - At address: 0x03668800
- - At address: 0x11000a00
- - At address: 0x0000abfc
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000ac74
- - At address: 0x00000005
- - At address: 0x0000ac4c
- - At address: 0x1193180a
- - At address: 0x0000ac98
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x00000000
- - At address: 0x01668800
-}
-} - At address: 0x0000ad04
- - At address: 0x00000000
- - At address: 0x1167760a
- - At address: 0x00000000
- - At address: 0x024f8800
-ˆ
-ˆ - At address: 0x0000ad70
- - At address: 0x77040000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x034f8800
- - At address: 0x0000ae3c
- - At address: 0x0000b300
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000aeb4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000af2c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000afa4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b01c
- - At address: 0x00000000
- - At address: 0x0000aa94
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b094
- - At address: 0x00000000
- - At address: 0x0000acec
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b184
- - At address: 0x0000b198
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b1fc
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b274
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x7a300000
- - At address: 0x01878800
-z0
-z0 - At address: 0x0000b31c
- - At address: 0x00000000
- - At address: 0x11fa250a
- - At address: 0x00000000
- - At address: 0x024f8800
- - At address: 0x0000b388
- - At address: 0x00000000
- - At address: 0x00000005
- - At address: 0x00000000
- - At address: 0x03668800
- - At address: 0x11000a00
- - At address: 0x0000b46c
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000b4e4
- - At address: 0x00000005
- - At address: 0x0000b4bc
- - At address: 0x11000a00
- - At address: 0x0000b508
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x7a1b0000
- - At address: 0x01878800
-z
-z - At address: 0x0000b574
- - At address: 0x00000000
- - At address: 0x11fa250a
- - At address: 0x00000000
- - At address: 0x024f8800
- - At address: 0x0000b5e0
- - At address: 0x60dd0000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x032e8800
- - At address: 0x11a30f0a
- - At address: 0x0000b6c4
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000b724
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b79c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b814
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b88c
- - At address: 0x0000b8a0
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000b904
- - At address: 0x0000b92c
- - At address: 0x0000b3cc
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000b9a4
- - At address: 0x0000b624
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000ba44
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000bbac
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000bb0c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000bb70
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x117ede0a
- - At address: 0x00000000
- - At address: 0x022d8800
- - At address: 0x0000bbf8
- - At address: 0x00000000
- - At address: 0x00000005
- - At address: 0x00000000
- - At address: 0x032e8800
- - At address: 0x11000a00
- - At address: 0x0000bcdc
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000bd54
- - At address: 0x00000005
- - At address: 0x0000bd2c
- - At address: 0x11000a00
- - At address: 0x0000bd78
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0xc7210000
- - At address: 0x01878800
-«!
-«! - At address: 0x0000bde4
- - At address: 0x00000000
- - At address: 0x11fa250a
- - At address: 0x00000000
- - At address: 0x024f8800
- - At address: 0x0000be50
- - At address: 0x00000000
- - At address: 0x00000005
- - At address: 0x00000000
- - At address: 0x034f8800
- - At address: 0x11000a00
- - At address: 0x0000bf34
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000bfac
- - At address: 0x00000005
- - At address: 0x0000bf84
- - At address: 0x1142dc0a
-`›
-`› - At address: 0x0000bfd0
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0xc5fd0000
- - At address: 0x014f8800
-≈˝
-≈˝ - At address: 0x0000c03c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c0fc
- - At address: 0x0000c110
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c174
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c1ec
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c264
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c2dc
- - At address: 0x00000000
- - At address: 0x0000be30
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000c088
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c444
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c4bc
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000c534
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
-ptain5K_Share_ACTION_Swing1_figatree - At address: 0xb36f0000
- - At address: 0x0000c5c4
-  - At address: 0x00000007
- - At address: 0x0000c59c
- - At address: 0x113fef0a
- - At address: 0x0000c5e8
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0xfa250000
- - At address: 0x01668800
-˙%
-˙% - At address: 0x0000c654
- - At address: 0x00000000
- - At address: 0x112a0a2a
- - At address: 0x00000000
- - At address: 0x02878800
-˚
-˚ - At address: 0x0000c6c0
- - At address: 0x00000000
- - At address: 0x00000005
- - At address: 0x00000000
- - At address: 0x03668800
- - At address: 0x11000a00
- - At address: 0x0000c7a4
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000c81c
- - At address: 0x00000005
- - At address: 0x0000c7f4
- - At address: 0x1182210a
- - At address: 0x0000c840
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0xfa250000
- - At address: 0x01668800
-˙%
-˙% - At address: 0x0000c8ac
- - At address: 0x00000000
- - At address: 0x114e0a4e
- - At address: 0x00000000
- - At address: 0x02878800
- - At address: 0x0000c918
- - At address: 0x60dd0000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x032e8800
- - At address: 0x11a30f0a
- - At address: 0x0000c9fc
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000ca5c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000cad4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000cb4c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000cbc4
- - At address: 0x0000cbd8
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000cc3c
- - At address: 0x0000cc64
- - At address: 0x0000c6a0
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000ccdc
- - At address: 0x0000c8f8
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000cd7c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000cee4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000ce44
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000cea8
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x119ade0a
- - At address: 0x00000000
- - At address: 0x022d8800
-∑Û
-∑Û - At address: 0x0000cf30
- - At address: 0x6d000000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x034f8800
- - At address: 0x118dff0a
- - At address: 0x0000d014
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000d08c
- - At address: 0x00000005
- - At address: 0x0000d064
- - At address: 0x115f070a
-ùˇ
-ùˇ - At address: 0x0000d0b0
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x73c10000
- - At address: 0x01668800
-s¡
-s¡ - At address: 0x0000d11c
- - At address: 0x00000000
- - At address: 0x11b2c50a
- - At address: 0x00000000
- - At address: 0x022e8800
-ì
-ì - At address: 0x0000d188
- - At address: 0x00000000
- - At address: 0x00000005
- - At address: 0x00000000
- - At address: 0x03878800
- - At address: 0x1142dc0a
- - At address: 0x0000d26c
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xe4540000
- - At address: 0x0000d2e4
-  - At address: 0x00000007
- - At address: 0x0000d2bc
- - At address: 0x00000001
- - At address: 0x0000d344
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000d3bc
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000d434
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000d600
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000d524
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000d59c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000d614
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000d68c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000d704
- - At address: 0x00000000
- - At address: 0x0000d104
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000d790
- - At address: 0x0000d294
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xcf000000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x032e8800
- - At address: 0x116d000a
- - At address: 0x0000d884
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000d8fc
- - At address: 0x00000005
- - At address: 0x0000d8d4
- - At address: 0x11000a00
- - At address: 0x0000d920
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x96ee0000
- - At address: 0x012e8800
-ñÓ
-ñÓ - At address: 0x0000d98c
- - At address: 0x00000000
- - At address: 0x1103ed0a
- - At address: 0x00000000
- - At address: 0x022e8800
- - At address: 0x0000d9f8
- - At address: 0xcf000000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x034f8800
- - At address: 0x11000a00
- - At address: 0x0000dadc
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x42dc0000
- - At address: 0x0000db54
-  - At address: 0x00000007
- - At address: 0x0000db2c
- - At address: 0x11310a31
-£
-£ - At address: 0x0000db78
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000dc2c
- - At address: 0x0000e0a0
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000dca4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000dd1c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000dd94
- - At address: 0x0000dec0
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000de34
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000de98
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000defc
- - At address: 0x0000df10
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000df74
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000e014
- - At address: 0x0000da3c
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000dbcc
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x11000a00
- - At address: 0x0000e0f4
- - At address: 0x00000005
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x3fef0000
- - At address: 0x0000e16c
-  - At address: 0x00000007
- - At address: 0x0000e144
- - At address: 0x11e6020a
-m - At address: 0x0000e190
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x70eb0000
- - At address: 0x012e8800
-pÎ
-pÎ - At address: 0x0000e1fc
- - At address: 0x00000000
- - At address: 0x1103ed0a
- - At address: 0x00000000
- - At address: 0x022e8800
- - At address: 0x0000e268
- - At address: 0x9dff0000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x03878800
- - At address: 0x11000a00
- - At address: 0x0000e34c
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0x82210000
- - At address: 0x0000e3c4
-  - At address: 0x00000007
- - At address: 0x0000e39c
- - At address: 0x11000a00
- - At address: 0x0000e3e8
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x00000000
- - At address: 0x01668800
-Ÿ
-Ÿ - At address: 0x0000e454
- - At address: 0x00000000
- - At address: 0x1145f80a
- - At address: 0x00000000
- - At address: 0x022e8800
-ád
-ád - At address: 0x0000e4c0
- - At address: 0x41450000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x032e8800
- - At address: 0x11a30f0a
- - At address: 0x0000e5a4
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000e604
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000e67c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000e6f4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000e76c
- - At address: 0x0000e780
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000e7e4
- - At address: 0x0000e80c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000e884
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000e924
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000ea8c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000e9ec
- - At address: 0x0000e2ac
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000ea50
- - At address: 0x0000e504
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x11000a00
- - At address: 0x00000000
- - At address: 0x02888800
-≥o
-≥o - At address: 0x0000ead8
- - At address: 0xcf000000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x032e8800
- - At address: 0x116d000a
- - At address: 0x0000ebbc
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000ec34
- - At address: 0x00000005
- - At address: 0x0000ec0c
- - At address: 0x11000a00
- - At address: 0x0000ec58
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x96ee0000
- - At address: 0x012e8800
-ñÓ
-ñÓ - At address: 0x0000ecc4
- - At address: 0x00000000
- - At address: 0x1103ed0a
- - At address: 0x00000000
- - At address: 0x022e8800
- - At address: 0x0000ed30
- - At address: 0xcf000000
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x034f8800
- - At address: 0x11000a00
- - At address: 0x0000ee14
-  - At address: 0x00000007
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000ee8c
- - At address: 0x00000005
- - At address: 0x0000ee64
- - At address: 0x11cb960a
-ΩÕ
-ΩÕ - At address: 0x0000eeb0
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x03ed0000
- - At address: 0x014f8800
-Ì
-Ì - At address: 0x0000ef1c
- - At address: 0x00000000
- - At address: 0x1177040a
- - At address: 0x00000000
- - At address: 0x024f8800
-1
-1 - At address: 0x0000ef88
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000f0cc
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000f144
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f1bc
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000f25c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f2ac
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f39c
- - At address: 0x0000f3c4
- - At address: 0x0000ebe4
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000f43c
- - At address: 0x0000ee3c
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x01888800
- - At address: 0x0000f534
- - At address: 0x0000f9f8
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f5ac
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f624
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f69c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f714
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f78c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f87c
- - At address: 0x0000f890
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f8f4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000f96c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
-  - At address: 0x00000007
- - At address: 0x0000fa14
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x0000fa8c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000fb04
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000fb7c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000fbf4
- - At address: 0x0000fc08
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0000fc6c
- - At address: 0x0000fc94
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000fd0c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000fdac
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000ff14
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000fe74
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x0000fed8
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x41200000
- - At address: 0x00000005
- - At address: 0x0000ff84
- - At address: 0x00000001
- - At address: 0x0000ffe4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0001005c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x000100d4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x000102a0
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x000101c4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0001023c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x000102b4
- - At address: 0x00000000
- - At address: 0x0000ff6c
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x0001032c
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x000103a4
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00010430
- - At address: 0x00000000
- - At address: 0x00000000
- - At address: 0x00000001
- - At address: 0x00000000
- - At address: 0x00000000
-aptain5K_Share_ACTION_Swing1_figatree - At address: 0xff100230
-in5K_Share_ACTION_AppealR_figatree - At address: 0xff500240
- - At address: 0x00c00070
- - At address: 0xffc00040
- - At address: 0x005002d0
- - At address: 0xff900340
- - At address: 0xffa002d0
- - At address: 0xfe4006e0
- - At address: 0xfbf0fe40
- - At address: 0xff700570
- - At address: 0x00b00550
- - At address: 0x00a00250
- - At address: 0x00500170
- - At address: 0xfe300030
- - At address: 0xfe7006d0
- - At address: 0xfea000a0
- - At address: 0xfcf0fd30
- - At address: 0xff500270
- - At address: 0xff5001c0
- - At address: 0x00d00030
- - At address: 0x00300270
- - At address: 0x00900040
- - At address: 0x00600020
- - At address: 0xff20fff0
- - At address: 0x00d00620
- - At address: 0xffb00280
- - At address: 0xff7000c0
- - At address: 0x00900060
- - At address: 0xfb700020
- - At address: 0xff800230
- - At address: 0xff900070
- - At address: 0x00d00340
- - At address: 0xff400670
-in5K_Share_ACTION_JumpB_figatree - At address: 0x000002e0
- - At address: 0x0170fe30
- - At address: 0xff00fec0
- - At address: 0x0030ff20
- - At address: 0x0010fd60
- - At address: 0xff3004f0
- - At address: 0x01c00110
- - At address: 0x00b00200
- - At address: 0x01e001c0
- - At address: 0xfe50fe80
- - At address: 0x01c000a0
- - At address: 0x00b001f0
- - At address: 0x01a001c0
- - At address: 0x0000ff60
- - At address: 0x0050fdc0
- - At address: 0xfc90fe80
- - At address: 0xfeb0ff40
- - At address: 0x00f00230
- - At address: 0xff400210
- - At address: 0xfff00220
- - At address: 0x006002f0
- - At address: 0xff3002e0
- - At address: 0x01d0feb0
- - At address: 0x01d00020
- - At address: 0xff500540
- - At address: 0xff600640
- - At address: 0x00a00030
- - At address: 0x01d00090
- - At address: 0x009001f0
- - At address: 0x01600080
- - At address: 0x0310fd30
- - At address: 0x00b00240
- - At address: 0x00900500
- - At address: 0xffc00030
- - At address: 0xffa00040
- - At address: 0x00700210
- - At address: 0xffd00250
- - At address: 0xff600290
- - At address: 0xff400260
- - At address: 0x00a00020
- - At address: 0x01a00660
- - At address: 0xfef0fff0
- - At address: 0x01400270
-_Share_ACTION_RunBrake_figatree - At address: 0x00000260
-rewDamage_figatree - At address: 0xff300250
-re_ACTION_CaptureDamageHi_figatree - At address: 0xff700130
- - At address: 0x04900040
- - At address: 0x00600220
- - At address: 0x007000a0
- - At address: 0xff800340
- - At address: 0x0020ffc0
- - At address: 0xff4002c0
- - At address: 0xfe90feb0
- - At address: 0x0110fec0
- - At address: 0x0110fe60
- - At address: 0xffe0fd70
- - At address: 0x019004a0
- - At address: 0xff300290
- - At address: 0xff500200
- - At address: 0xfdc001c0
- - At address: 0x01b0fda0
- - At address: 0xfde0fe70
- - At address: 0xfe800200
- - At address: 0xfe600340
- - At address: 0x01900000
- - At address: 0x0200fe30
- - At address: 0x0210fd80
- - At address: 0x0150fe80
- - At address: 0xfc200100
- - At address: 0x07500040
- - At address: 0x0750ff40
- - At address: 0x07b0fd00
- - At address: 0x01b0fd40
- - At address: 0xfc70fef0
- - At address: 0xfba00000
- - At address: 0xffa0fac0
- - At address: 0xfff004e0
- - At address: 0xfd500000
- - At address: 0xfd5003d0
- - At address: 0xfff0fce0
- - At address: 0x00b0fc50
- - At address: 0x03500140
- - At address: 0x031001a0
- - At address: 0x0360fec0
- - At address: 0x01a00000
- - At address: 0x03800110
- - At address: 0x010001a0
- - At address: 0x0070fc80
- - At address: 0x01f0fdd0
- - At address: 0x02600000
- - At address: 0x0220fee0
- - At address: 0xfcf00290
- - At address: 0x03700000
- - At address: 0xff30fa60
- - At address: 0x01f00000
- - At address: 0xfde0fc30
- - At address: 0xfe20fbf0
- - At address: 0xfe90fe10
- - At address: 0x0140fd50
- - At address: 0xfb500000
- - At address: 0xfbe00000
- - At address: 0x02900270
- - At address: 0xfb9003a0
- - At address: 0x02f001c0
- - At address: 0x03200140
- - At address: 0xff600380
- - At address: 0x03f001a0
- - At address: 0xff2004f0
- - At address: 0x0080fef0
- - At address: 0x04100000
- - At address: 0xfd500000
- - At address: 0x03b00320
- - At address: 0x03d00320
- - At address: 0x0320fd10
- - At address: 0x06e00000
- - At address: 0x01900000
- - At address: 0x04200350
- - At address: 0x04500250
- - At address: 0x0490fee0
- - At address: 0x04700150
- - At address: 0x03a0ff30
- - At address: 0x0350ff30
- - At address: 0x03900140
- - At address: 0x00a0fa40
- - At address: 0x0050fb50
- - At address: 0x0330fed0
- - At address: 0x04400150
- - At address: 0x04e0ff50
- - At address: 0x06200000
- - At address: 0x0670ff30
- - At address: 0x0760ffa0
- - At address: 0x07700000
- - At address: 0x06b00080
- - At address: 0x0440fdf0
- - At address: 0x05a0fbd0
- - At address: 0x02b0fcc0
- - At address: 0x0250fe00
- - At address: 0x054003a0
- - At address: 0x0450ff10
- - At address: 0x07000160
- - At address: 0x054001d0
- - At address: 0x03f000d0
- - At address: 0x044002b0
- - At address: 0x0620fea0
- - At address: 0x062000a0
- - At address: 0x05b00210
- - At address: 0x035000d0
- - At address: 0x06200150
- - At address: 0x060000f0
- - At address: 0x06b000d0
- - At address: 0x03f0fed0
- - At address: 0x05d0ff10
- - At address: 0x0100fdf0
- - At address: 0x0450fbb0
- - At address: 0x03e0fd30
- - At address: 0x00a0fbf0
- - At address: 0x0340fb00
- - At address: 0x0220fd90
- - At address: 0x04b0fa20
- - At address: 0x0170fe70
- - At address: 0x0600fd80
- - At address: 0x01700000
- - At address: 0x0510fd40
- - At address: 0x03e00130
- - At address: 0x02f003b0
- - At address: 0x060002c0
- - At address: 0x00e004b0
- - At address: 0x05000000
- - At address: 0x03700000
- - At address: 0x01b00530
- - At address: 0x048005a0
- - At address: 0x017003f0
- - At address: 0x04400240
- - At address: 0x06d00000
- - At address: 0x03e0fc60
- - At address: 0x0670ff60
- - At address: 0x0700ff90
- - At address: 0x0670fd70
- - At address: 0x05a000d0
- - At address: 0x0670fe20
- - At address: 0xfbb000a0
- - At address: 0xfea00240
- - At address: 0xfeb000a0
- - At address: 0x00600e80
- - At address: 0xff700f30
- - At address: 0x03900a40
- - At address: 0x01600a80
- - At address: 0x03900580
- - At address: 0x03500840
- - At address: 0xff200aa0
- - At address: 0x02100790
- - At address: 0x006004f0
- - At address: 0x00600a70
- - At address: 0x02900190
- - At address: 0xfd600080
- - At address: 0x03b001c0
- - At address: 0x04500210
- - At address: 0x02300220
- - At address: 0xfca001f0
- - At address: 0xfe800060
- - At address: 0xfef001d0
- - At address: 0x01a0fef0
- - At address: 0x03c00180
- - At address: 0xfee00d90
- - At address: 0x02e00bb0
- - At address: 0xff400a50
- - At address: 0xfd500520
- - At address: 0x04200010
- - At address: 0x02100180
- - At address: 0xff600d80
- - At address: 0xfd500330
- - At address: 0x01b00150
- - At address: 0xfd300160
- - At address: 0xffa00190
- - At address: 0xfcd001e0
- - At address: 0xfe400e80
- - At address: 0x00d00f30
- - At address: 0xfe600e70
- - At address: 0x02e00770
- - At address: 0xfb600850
- - At address: 0x01600740
- - At address: 0xfea00570
- - At address: 0xfdf00530
- - At address: 0xffa00740
- - At address: 0x035000a0
- - At address: 0x03400090
- - At address: 0x01a001c0
- - At address: 0xfc000190
- - At address: 0xfc600210
- - At address: 0x01d003c0
- - At address: 0x02b000a0
- - At address: 0x01900060
- - At address: 0xfe600310
- - At address: 0xffb0fee0
- - At address: 0xfc400d80
- - At address: 0xfe900d90
- - At address: 0xfe900bc0
- - At address: 0x00c00520
- - At address: 0x02700560
- - At address: 0xfbe00190
- - At address: 0xff600ba0
- - At address: 0x02c00560
- - At address: 0x00300580
- - At address: 0x02500c90
- - At address: 0x02200cc0
- - At address: 0x0470ff90
- - At address: 0xfe9006b0
- - At address: 0x02b00950
- - At address: 0xfef00b70
- - At address: 0x02e00650
- - At address: 0x01b00bb0
- - At address: 0x02d006e0
- - At address: 0xfba00cb0
- - At address: 0xfca005f0
- - At address: 0xfdc00b90
- - At address: 0x02600620
- - At address: 0xfcf00a50
- - At address: 0x0170ff70
- - At address: 0xfd500bd0
- - At address: 0xfd800420
- - At address: 0x00300ca0
- - At address: 0xfde00cb0
- - At address: 0x018003d0
- - At address: 0xfdd00b80
- - At address: 0x02f007d0
- - At address: 0xfe500a90
- - At address: 0xfc6006d0
- - At address: 0x025006d0
- - At address: 0x03a008e0
- - At address: 0xfda006f0
- - At address: 0x04b001c0
- - At address: 0x03100210
- - At address: 0xfd500500
- - At address: 0x02e00960
- - At address: 0x04300400
- - At address: 0x01700730
- - At address: 0x04d0ff30
- - At address: 0x0200fd30
- - At address: 0x03e0fd50
- - At address: 0x00c0ffe0
- - At address: 0x02e0fda0
- - At address: 0xfe00feb0
- - At address: 0xfbd00790
- - At address: 0x022008c0
- - At address: 0xfb8001d0
- - At address: 0xfc100470
- - At address: 0x042000b0
- - At address: 0x03f00160
- - At address: 0x03500160
- - At address: 0x03000490
- - At address: 0xfc9004f0
- - At address: 0xfbe001a0
- - At address: 0xfd800250
- - At address: 0xfc100010
- - At address: 0x06c007e0
- - At address: 0x04d00360
- - At address: 0x020013f0
- - At address: 0x01b01420
- - At address: 0xfd701140
- - At address: 0xff401460
- - At address: 0x01401400
- - At address: 0xfbc00b20
- - At address: 0x05300500
- - At address: 0xfdf01150
- - At address: 0xfb800b60
- - At address: 0x00200e60
- - At address: 0x027007f0
- - At address: 0x05200bb0
- - At address: 0xfe801400
- - At address: 0x00600e60
- - At address: 0x00d003a0
- - At address: 0xfe900190
- - At address: 0xff200290
- - At address: 0x04500280
- - At address: 0xfbf00380
- - At address: 0x04100280
- - At address: 0x02200160
- - At address: 0x00f00310
- - At address: 0x0270fff0
- - At address: 0xfdf00650
- - At address: 0x01401260
- - At address: 0xf9001370
- - At address: 0x04001300
- - At address: 0x03d011f0
- - At address: 0xf9300d40
- - At address: 0x03b00f90
- - At address: 0xfd0005f0
- - At address: 0xfdd013e0
- - At address: 0xfb800b50
- - At address: 0x02f005c0
- - At address: 0x09b00520
- - At address: 0x07a00250
- - At address: 0x0840faa0
- - At address: 0xfc700010
- - At address: 0xfd20ff00
- - At address: 0x0420fb80
- - At address: 0x0910fa80
- - At address: 0x05401460
- - At address: 0xfb700010
- - At address: 0x06800eb0
- - At address: 0xf970fe60
- - At address: 0x00f0f630
- - At address: 0x0380fef0
- - At address: 0x06c00bc0
- - At address: 0x08d00010
- - At address: 0x07c0f9c0
- - At address: 0x0710fd50
- - At address: 0xfd800230
- - At address: 0x03500010
- - At address: 0xfd10f7d0
- - At address: 0xf94002b0
- - At address: 0x04f00d70
- - At address: 0x03f01330
- - At address: 0xfd400c10
- - At address: 0xfda00730
- - At address: 0x05c00470
- - At address: 0x09f00190
- - At address: 0xfb400460
- - At address: 0x08f00d30
- - At address: 0x09300c10
- - At address: 0xffd007b0
- - At address: 0xfff00020
- - At address: 0x04a00010
- - At address: 0xfb8001c0
- - At address: 0x03400480
- - At address: 0xff20f5e0
- - At address: 0x07000b10
- - At address: 0xfbb00450
- - At address: 0x053003b0
- - At address: 0x0940f770
- - At address: 0x07e0f5e0
- - At address: 0xf970fe40
- - At address: 0x08000980
- - At address: 0x05900ec0
- - At address: 0x08d0fe40
- - At address: 0x08a0f910
- - At address: 0x02d010d0
- - At address: 0x01c002d0
- - At address: 0x02500180
- - At address: 0x035013f0
- - At address: 0x01900260
- - At address: 0xfb501100
- - At address: 0xffa00270
- - At address: 0xfa000eb0
- - At address: 0xfc2010a0
- - At address: 0xfb800fe0
- - At address: 0x05e0fc80
- - At address: 0x0690f930
- - At address: 0xfd00fdc0
- - At address: 0xff500e70
- - At address: 0xfc5006e0
- - At address: 0xf9b0fe40
- - At address: 0x03900d30
- - At address: 0xfab0f6c0
- - At address: 0xffd0f800
- - At address: 0xfff00760
- - At address: 0xfc400450
- - At address: 0xfc10f9b0
- - At address: 0xfb100000
- - At address: 0xfad00240
- - At address: 0x06d0ff40
- - At address: 0xfe200bf0
+PlyCaptain5K_Share_ACTION_WallDamage_figatree
+PlyCaptain5K_Share_ACTION_DamageFall_figatree
+PlyCaptain5K_Share_ACTION_Wait1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Wait2_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Wait3_figatree
+	Event Not yet implemented
+Unknown Action
+PlyCaptain5K_Share_ACTION_WaitItem_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_WalkSlow_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_WalkMiddle_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_WalkFast_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Turn_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_TurnRun_figatree
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Dash_figatree
+	async timer Not yet implemented
+	- generate article Not yet implemented
+	Sound Effect Not yet implemented
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+PlyCaptain5K_Share_ACTION_Run_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_RunBrake_figatree
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+PlyCaptain5K_Share_ACTION_Landing_figatree
+PlyCaptain5K_Share_ACTION_JumpF_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_JumpB_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_JumpAerialF_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_JumpAerialB_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_Fall_figatree
+PlyCaptain5K_Share_ACTION_FallF_figatree
+PlyCaptain5K_Share_ACTION_FallB_figatree
+PlyCaptain5K_Share_ACTION_FallAerial_figatree
+PlyCaptain5K_Share_ACTION_FallAerialF_figatree
+PlyCaptain5K_Share_ACTION_FallAerialB_figatree
+PlyCaptain5K_Share_ACTION_FallSpecial_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_FallSpecialF_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_FallSpecialB_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageFall_figatree
+PlyCaptain5K_Share_ACTION_Squat_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SquatWait_figatree
+	Event Not yet implemented
+Unknown Action
+Unknown Action
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SquatRv_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Landing_figatree
+	Event Not yet implemented
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Landing_figatree
+	Event Not yet implemented
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_GuardOn_figatree
+PlyCaptain5K_Share_ACTION_Guard_figatree
+PlyCaptain5K_Share_ACTION_GuardOff_figatree
+PlyCaptain5K_Share_ACTION_GuardDamage_figatree
+PlyCaptain5K_Share_ACTION_EscapeN_figatree
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Sound Effect Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	allow interrupt Not yet implemented
+PlyCaptain5K_Share_ACTION_EscapeF_figatree
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_EscapeB_figatree
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_EscapeAir_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+	auto cancel Not yet implemented
+PlyCaptain5K_Share_ACTION_Rebound_figatree
+PlyCaptain5K_Share_ACTION_Attack11_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Attack12_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Attack13_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Attack100Start_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Attack100Loop_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Attack100End_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackDash_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	graphic effect Not yet implemented
+	sync Not yet implemented
+	Hitbox Data
+		Hitbox damage: 7
+		Element: 00
+	sync Not yet implemented
+	end collisions Not yet implemented
+	async timer Not yet implemented
+	allow interrupt Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackS3Hi_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 12
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 12
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackS3HiS_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 12
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 12
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackS3S_figatree
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 11
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 11
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackS3LwS_figatree
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackS3Lw_figatree
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackHi3_figatree
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackLw3_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackS4Hi_figatree
+	Event Not yet implemented
+Unknown Action
+PlyCaptain5K_Share_ACTION_AttackS4S_figatree
+	Event Not yet implemented
+Unknown Action
+PlyCaptain5K_Share_ACTION_AttackS4Lw_figatree
+	Event Not yet implemented
+Unknown Action
+PlyCaptain5K_Share_ACTION_AttackHi4_figatree
+	Random Smash Sound Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	start smash unsigned charge Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 8
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 8
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackLw4_figatree
+	Random Smash Sound Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	start smash unsigned charge Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 18
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 18
+		Element: 00
+	graphic effect Not yet implemented
+	sync Not yet implemented
+	end collisions Not yet implemented
+	sync Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 16
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 16
+		Element: 00
+	sync Not yet implemented
+	end collisions Not yet implemented
+	async timer Not yet implemented
+	allow interrupt Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackAirN_figatree
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 5
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	sync Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackAirF_figatree
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 18
+		Element: 08
+	Hitbox Data
+		Hitbox damage: 18
+		Element: 08
+	sync Not yet implemented
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 80
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 80
+	async timer Not yet implemented
+	end collisions Not yet implemented
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	allow interrupt Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackAirB_figatree
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 14
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 14
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackAirHi_figatree
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 13
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 12
+		Element: 00
+	sync Not yet implemented
+	Hitbox Data
+		Hitbox damage: 12
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	sync Not yet implemented
+	Hitbox Data
+		Hitbox damage: 8
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	async timer Not yet implemented
+	end collisions Not yet implemented
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	allow interrupt Not yet implemented
+PlyCaptain5K_Share_ACTION_AttackAirLw_figatree
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	auto cancel Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	Hitbox Data
+		Hitbox damage: 16
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 16
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_LandingAirN_figatree
+	Event Not yet implemented
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_LandingAirF_figatree
+	Event Not yet implemented
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_LandingAirB_figatree
+	Event Not yet implemented
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_LandingAirHi_figatree
+	Event Not yet implemented
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_LandingAirLw_figatree
+	Event Not yet implemented
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_LightGet_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowF_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowB_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowHi_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowLw_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowDash_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowDrop_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirF_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirB_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirHi_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirLw_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyGet_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyWalk1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyWalk2_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowF_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowB_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowHi_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowLw_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowF_figatree
+	async timer Not yet implemented
+	Random Smash Sound Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowB_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Random Smash Sound Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowHi_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Random Smash Sound Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowLw_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Random Smash Sound Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirF_figatree
+	async timer Not yet implemented
+	Random Smash Sound Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirB_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Random Smash Sound Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirHi_figatree
+	async timer Not yet implemented
+	Random Smash Sound Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_LightThrowAirLw_figatree
+	async timer Not yet implemented
+	Random Smash Sound Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowF_figatree
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Random Smash Sound Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowB_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Random Smash Sound Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowHi_figatree
+	async timer Not yet implemented
+	Random Smash Sound Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_HeavyThrowLw_figatree
+	async timer Not yet implemented
+	Random Smash Sound Not yet implemented
+	graphic effect Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing3_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing41_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SwingDash_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing3_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing41_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SwingDash_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing3_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing41_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SwingDash_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+	async timer Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing3_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing41_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SwingDash_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing3_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing41_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SwingDash_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing1_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing3_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing41_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SwingDash_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemHammerWait_figatree
+PlyCaptain5K_Share_ACTION_ItemHammerMove_figatree
+PlyCaptain5K_Share_ACTION_ItemParasolOpen_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemParasolFall_figatree
+PlyCaptain5K_Share_ACTION_ItemParasolFall_figatree
+PlyCaptain5K_Share_ACTION_DamageFall_figatree
+PlyCaptain5K_Share_ACTION_ItemShoot_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemShootAir_figatree
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemShoot_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemShootAir_figatree
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemShoot_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemShootAir_figatree
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScrew_figatree
+	graphic effect Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScrewAir_figatree
+	graphic effect Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScrewDamage_figatree
+	sync Not yet implemented
+	auto cancel Not yet implemented
+	 subroutine Not yet implemented
+	sync Not yet implemented
+	auto cancel Not yet implemented
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScrewDamage_figatree
+	sync Not yet implemented
+	auto cancel Not yet implemented
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemBlind_figatree
+PlyCaptain5K_Share_ACTION_ItemScopeStart_figatree
+	graphic effect Not yet implemented
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeRapid_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeFire_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeEnd_figatree
+PlyCaptain5K_Share_ACTION_ItemScopeAirStart_figatree
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeAirRapid_figatree
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeAirFire_figatree
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeAirEnd_figatree
+	 subroutine Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeStart_figatree
+	Sound Effect Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeRapid_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeFire_figatree
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeEnd_figatree
+PlyCaptain5K_Share_ACTION_ItemScopeAirStart_figatree
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeAirRapid_figatree
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeAirFire_figatree
+	 subroutine Not yet implemented
+	 subroutine Not yet implemented
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_ItemScopeAirEnd_figatree
+	 subroutine Not yet implemented
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageHi1_figatree
+PlyCaptain5K_Share_ACTION_DamageHi2_figatree
+PlyCaptain5K_Share_ACTION_DamageHi3_figatree
+PlyCaptain5K_Share_ACTION_DamageN1_figatree
+PlyCaptain5K_Share_ACTION_DamageN2_figatree
+PlyCaptain5K_Share_ACTION_DamageN3_figatree
+PlyCaptain5K_Share_ACTION_DamageLw1_figatree
+PlyCaptain5K_Share_ACTION_DamageLw2_figatree
+PlyCaptain5K_Share_ACTION_DamageLw3_figatree
+PlyCaptain5K_Share_ACTION_DamageAir1_figatree
+PlyCaptain5K_Share_ACTION_DamageAir2_figatree
+PlyCaptain5K_Share_ACTION_DamageAir3_figatree
+PlyCaptain5K_Share_ACTION_DamageFlyHi_figatree
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageFlyN_figatree
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageFlyLw_figatree
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageFlyTop_figatree
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageFlyRoll_figatree
+	goto Not yet implemented
+Unknown Action
+PlyCaptain5K_Share_ACTION_DownBoundU_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownWaitU_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownDamageU_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownStandU_figatree
+	graphic effect Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_DownAttackU_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	Event Not yet implemented
+	Event Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownFowardU_figatree
+	graphic effect Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_DownBackU_figatree
+	body state Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+Unknown Action
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownBoundD_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownWaitD_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownDamageD_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DownStandD_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_DownAttackD_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	sync Not yet implemented
+	end collisions Not yet implemented
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 6
+		Element: 00
+	graphic effect Not yet implemented
+	sync Not yet implemented
+	end collisions Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_DownFowardD_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_DownBackD_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_DownSpotD_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Passive_figatree
+	body state Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_PassiveStandF_figatree
+	body state Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_PassiveStandB_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_PassiveWall_figatree
+PlyCaptain5K_Share_ACTION_PassiveWallJump_figatree
+PlyCaptain5K_Share_ACTION_PassiveCeil_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_FuraFura_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_FuraSleepStart_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_FuraSleepLoop_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_FuraSleepEnd_figatree
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+	- generate article Not yet implemented
+PlyCaptain5K_Share_ACTION_Pass_figatree
+PlyCaptain5K_Share_ACTION_Ottotto_figatree
+PlyCaptain5K_Share_ACTION_OttottoWait_figatree
+PlyCaptain5K_Share_ACTION_WallDamage_figatree
+PlyCaptain5K_Share_ACTION_StopWall_figatree
+PlyCaptain5K_Share_ACTION_StopCeil_figatree
+	async timer Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_MissFoot_figatree
+PlyCaptain5K_Share_ACTION_CliffCatch_figatree
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffWait1_figatree
+PlyCaptain5K_Share_ACTION_CliffWait2_figatree
+PlyCaptain5K_Share_ACTION_CliffClimbSlow_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+	Sound Effect Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffClimbQuick_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffAttackSlow_figatree
+	body state Not yet implemented
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 8
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 8
+		Element: 00
+	graphic effect Not yet implemented
+	body state Not yet implemented
+	sync Not yet implemented
+	end collisions Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffAttackQuick_figatree
+	body state Not yet implemented
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	Hitbox Data
+		Hitbox damage: 10
+		Element: 00
+	Event Not yet implemented
+	end collisions Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffEscapeSlow_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffEscapeQuick_figatree
+	body state Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffJumpSlow1_figatree
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffJumpSlow2_figatree
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffJumpQuick1_figatree
+	body state Not yet implemented
+PlyCaptain5K_Share_ACTION_CliffJumpQuick2_figatree
+	graphic effect Not yet implemented
+Unknown Action
+	graphic effect Not yet implemented
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+PlyCaptain5K_Share_ACTION_Entry_figatree
+PlyCaptain5K_Share_ACTION_AppealR_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_AppealL_figatree
+	Event Not yet implemented
+Unknown Action
+PlyCaptain5K_Share_ACTION_Catch_figatree
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 20
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 20
+	throw box Not yet implemented
+	end collisions Not yet implemented
+	28fe9e - reverse direction Not yet implemented
+PlyCaptain5K_Share_ACTION_CatchDash_figatree
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	Sound Effect Not yet implemented
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 20
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 20
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_CatchWait_figatree
+PlyCaptain5K_Share_ACTION_CatchAttack_figatree
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 3
+		Element: 00
+	sync Not yet implemented
+	end collisions Not yet implemented
+PlyCaptain5K_Share_ACTION_CatchCut_figatree
+PlyCaptain5K_Share_ACTION_ThrowF_figatree
+	Random Smash Sound Not yet implemented
+	throw box Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ThrowB_figatree
+	Random Smash Sound Not yet implemented
+	throw box Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ThrowHi_figatree
+	Random Smash Sound Not yet implemented
+	throw box Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_ThrowLw_figatree
+	Random Smash Sound Not yet implemented
+	throw box Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_CapturePulledHi_figatree
+PlyCaptain5K_Share_ACTION_CaptureWaitHi_figatree
+PlyCaptain5K_Share_ACTION_CaptureDamageHi_figatree
+PlyCaptain5K_Share_ACTION_CapturePulledLw_figatree
+PlyCaptain5K_Share_ACTION_CaptureWaitLw_figatree
+PlyCaptain5K_Share_ACTION_CaptureDamageLw_figatree
+PlyCaptain5K_Share_ACTION_CaptureCut_figatree
+PlyCaptain5K_Share_ACTION_CaptureJump_figatree
+Unknown Action
+Unknown Action
+Unknown Action
+PlyTaro_Share_ACTION_TCaptainThrowF_figatree
+PlyTaro_Share_ACTION_TCaptainThrowB_figatree
+PlyTaro_Share_ACTION_TCaptainThrowHi_figatree
+PlyTaro_Share_ACTION_TCaptainThrowLw_figatree
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+PlyTaro_Share_ACTION_TCaptainSpecialHi_figatree
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+Unknown Action
+	goto Not yet implemented
+Unknown Action
+	goto Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageFlyTop_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_DamageFall_figatree
+PlyCaptain5K_Share_ACTION_DownBoundU_figatree
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_DownBoundD_figatree
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+PlyCaptain5K_Share_ACTION_DownStandU_figatree
+PlyCaptain5K_Share_ACTION_DownStandD_figatree
+Unknown Action
+Unknown Action
+Unknown Action
+PlyCaptain5K_Share_ACTION_Swing42_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing42_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing42_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing42_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing42_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_Swing42_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialN_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialAirN_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialSStart_figatree
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Sound Effect Not yet implemented
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 2c
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 2c
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialS_figatree
+	Sound Effect Not yet implemented
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+	graphic effect Not yet implemented
+	- generate article Not yet implemented
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 7
+		Element: 04
+	async timer Not yet implemented
+	end collisions Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialAirSStart_figatree
+	Sound Effect Not yet implemented
+	- generate article Not yet implemented
+	async timer Not yet implemented
+	graphic effect Not yet implemented
+	Sound Effect Not yet implemented
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 2c
+	Hitbox Data
+		Hitbox damage: 0
+		Element: 2c
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialAirS_figatree
+	Sound Effect Not yet implemented
+	Sound Effect Not yet implemented
+	graphic effect Not yet implemented
+	- generate article Not yet implemented
+	async timer Not yet implemented
+	Hitbox Data
+		Hitbox damage: 7
+		Element: 04
+	async timer Not yet implemented
+	end collisions Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialHi_figatree
+	- generate article Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialAirHi_figatree
+	- generate article Not yet implemented
+	graphic effect Not yet implemented
+	async timer Not yet implemented
+	auto cancel Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialHiCatch_figatree
+	graphic effect Not yet implemented
+	- generate article Not yet implemented
+	end collisions Not yet implemented
+	sync Not yet implemented
+	Hitbox Data
+		Hitbox damage: 5
+		Element: 04
+	sync Not yet implemented
+	end collisions Not yet implemented
+	async timer Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialHiThrow_figatree
+	throw box Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialLw_figatree
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialLwEnd_figatree
+	sync Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialAirLw_figatree
+	Sound Effect Not yet implemented
+	async timer Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialAirLwEnd_figatree
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialLwEndAir_figatree
+	sync Not yet implemented
+	auto cancel Not yet implemented
+	Event Not yet implemented
+PlyCaptain5K_Share_ACTION_SpecialAirLwEndAir_figatree
+PlyCaptain5K_Share_ACTION_SpecialHiThrow_figatree
+	graphic effect Not yet implemented
+	- generate article Not yet implemented
+	Sound Effect Not yet implemented

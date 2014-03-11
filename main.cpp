@@ -253,9 +253,14 @@ SubActionHeader *getSubActionHeaders(FILE *file, SmashHeader *smash) {
 	for (int i = 0; i < numOfElements; i++) {
 		fseek(file, headers[i].nameOffset + 0x20, SEEK_SET);
 		fread(&a, sizeof(unsigned char), 1, file);
+		int count = 0;
 		while(a != '\0') {
 			printf("%c", a);
 			fread(&a, sizeof(unsigned char), 1, file);
+			count++;
+		}
+		if (count <= 1) {
+			printf("Unknown Action");
 		}
 		headers[i].eventActions = new std::vector<event*>();
 		printf("\n");
