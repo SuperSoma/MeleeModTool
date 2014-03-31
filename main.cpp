@@ -91,7 +91,7 @@ typedef struct subActionHeader {
 } SubActionHeader;
 
 //Swaps are important man
-int32_t swap_int32( int32_t val )
+int32_t swap_int32( int val )
 {
     val = ((val << 8) & 0xFF00FF00) | ((val >> 8) & 0xFF00FF ); 
     return (val << 16) | ((val >> 16) & 0xFFFF);
